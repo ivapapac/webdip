@@ -1,0 +1,133 @@
+Webserver Stress Tool - Logfile for User #18
+5/17/2020 2:52:07 PM: User #18 Click #1: Waiting for global click delay: 10s
+5/17/2020 2:52:15 PM: User #18 Click #1: HTTP request & TCP/IP socket creation: 2 ms
+5/17/2020 2:52:15 PM: User #18 Click #1: ** Click #1 started, used URL #18 () POST-DATA="odjava=Prijava", from IP=0.0.0.0
+5/17/2020 2:52:15 PM: User #18 Click #1: Request 1 HTTP State: Initialized (0 ms)
+5/17/2020 2:52:15 PM: User #18 Click #1: Request 1 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:52:15 PM: User #18 Click #1: Request 1 HTTP State: DNS Lookup done (1 ms)
+5/17/2020 2:52:15 PM: User #18 Click #1: Request 1 HTTP State: Connected (1 ms)
+5/17/2020 2:52:15 PM: User #18 Click #1: Request 1 HTTP State: Waiting for header (1 ms)
+5/17/2020 2:52:16 PM: User #18 Click #1: Request 1 HTTP State: Receiving Header (413 ms) (=Time to First Byte)
+5/17/2020 2:52:16 PM: User #18 Click #1: Request 1 HTTP State: Waiting for body (413 ms)
+5/17/2020 2:52:16 PM: User #18 Click #1: Request 1 HTTP State: Done (414 ms)
+5/17/2020 2:52:16 PM: User #18 Click #1: CLICK-Request 1: Time=431 ms, TFB=413 ms, Bytes=8,166, HTTP-StatusCode=200 (OK)
+5/17/2020 2:52:16 PM: User #18 Click #1: !Success! All requests of click done (431 ms)  
+5/17/2020 2:52:16 PM: User #18 Click #2: Waiting for global click delay: 10s
+5/17/2020 2:52:26 PM: User #18 Click #2: HTTP request & TCP/IP socket creation: 1 ms
+5/17/2020 2:52:26 PM: User #18 Click #2: ** Click #2 started, used URL #18 () POST-DATA="odjava=Prijava", from IP=0.0.0.0
+5/17/2020 2:52:26 PM: User #18 Click #2: Request 2 HTTP State: Initialized (0 ms)
+5/17/2020 2:52:26 PM: User #18 Click #2: Request 2 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:52:26 PM: User #18 Click #2: Request 2 HTTP State: DNS Lookup done (1 ms)
+5/17/2020 2:52:26 PM: User #18 Click #2: Request 2 HTTP State: Connected (2 ms)
+5/17/2020 2:52:26 PM: User #18 Click #2: Request 2 HTTP State: Waiting for header (2 ms)
+5/17/2020 2:52:26 PM: User #18 Click #2: Request 2 HTTP State: Receiving Header (420 ms) (=Time to First Byte)
+5/17/2020 2:52:26 PM: User #18 Click #2: Request 2 HTTP State: Waiting for body (433 ms)
+5/17/2020 2:52:26 PM: User #18 Click #2: Request 2 HTTP State: Done (433 ms)
+5/17/2020 2:52:26 PM: User #18 Click #2: CLICK-Request 2: Time=433 ms, TFB=420 ms, Bytes=8,166, HTTP-StatusCode=200 (OK)
+5/17/2020 2:52:26 PM: User #18 Click #2: !Success! All requests of click done (433 ms)  
+5/17/2020 2:52:26 PM: User #18 Click #3: Waiting for global click delay: 10s
+5/17/2020 2:52:36 PM: User #18 Click #3: HTTP request & TCP/IP socket creation: 2 ms
+5/17/2020 2:52:36 PM: User #18 Click #3: ** Click #3 started, used URL #18 () POST-DATA="odjava=Prijava", from IP=0.0.0.0
+5/17/2020 2:52:36 PM: User #18 Click #3: Request 3 HTTP State: Initialized (0 ms)
+5/17/2020 2:52:36 PM: User #18 Click #3: Request 3 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:52:36 PM: User #18 Click #3: Request 3 HTTP State: DNS Lookup done (0 ms)
+5/17/2020 2:52:36 PM: User #18 Click #3: Request 3 HTTP State: Connected (1 ms)
+5/17/2020 2:52:36 PM: User #18 Click #3: Request 3 HTTP State: Waiting for header (16 ms)
+5/17/2020 2:52:36 PM: User #18 Click #3: Request 3 HTTP State: Receiving Header (432 ms) (=Time to First Byte)
+5/17/2020 2:52:36 PM: User #18 Click #3: Request 3 HTTP State: Waiting for body (432 ms)
+5/17/2020 2:52:36 PM: User #18 Click #3: Request 3 HTTP State: Done (436 ms)
+5/17/2020 2:52:36 PM: User #18 Click #3: CLICK-Request 3: Time=436 ms, TFB=432 ms, Bytes=8,166, HTTP-StatusCode=200 (OK)
+5/17/2020 2:52:36 PM: User #18 Click #3: !Success! All requests of click done (436 ms)  
+5/17/2020 2:52:37 PM: User #18 Click #4: Waiting for global click delay: 10s
+5/17/2020 2:52:46 PM: User #18 Click #4: HTTP request & TCP/IP socket creation: 1 ms
+5/17/2020 2:52:46 PM: User #18 Click #4: ** Click #4 started, used URL #18 () POST-DATA="odjava=Prijava", from IP=0.0.0.0
+5/17/2020 2:52:46 PM: User #18 Click #4: Request 4 HTTP State: Initialized (0 ms)
+5/17/2020 2:52:46 PM: User #18 Click #4: Request 4 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:52:47 PM: User #18 Click #4: Request 4 HTTP State: DNS Lookup done (10 ms)
+5/17/2020 2:52:47 PM: User #18 Click #4: Request 4 HTTP State: Connected (11 ms)
+5/17/2020 2:52:47 PM: User #18 Click #4: Request 4 HTTP State: Waiting for header (11 ms)
+5/17/2020 2:52:47 PM: User #18 Click #4: Request 4 HTTP State: Receiving Header (432 ms) (=Time to First Byte)
+5/17/2020 2:52:47 PM: User #18 Click #4: Request 4 HTTP State: Waiting for body (432 ms)
+5/17/2020 2:52:47 PM: User #18 Click #4: Request 4 HTTP State: Done (432 ms)
+5/17/2020 2:52:47 PM: User #18 Click #4: CLICK-Request 4: Time=432 ms, TFB=432 ms, Bytes=8,166, HTTP-StatusCode=200 (OK)
+5/17/2020 2:52:47 PM: User #18 Click #4: !Success! All requests of click done (432 ms)  
+5/17/2020 2:52:47 PM: User #18 Click #5: Waiting for global click delay: 10s
+5/17/2020 2:52:57 PM: User #18 Click #5: HTTP request & TCP/IP socket creation: 2 ms
+5/17/2020 2:52:57 PM: User #18 Click #5: ** Click #5 started, used URL #18 () POST-DATA="odjava=Prijava", from IP=0.0.0.0
+5/17/2020 2:52:57 PM: User #18 Click #5: Request 5 HTTP State: Initialized (0 ms)
+5/17/2020 2:52:57 PM: User #18 Click #5: Request 5 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:52:57 PM: User #18 Click #5: Request 5 HTTP State: DNS Lookup done (0 ms)
+5/17/2020 2:52:57 PM: User #18 Click #5: Request 5 HTTP State: Connected (1 ms)
+5/17/2020 2:52:57 PM: User #18 Click #5: Request 5 HTTP State: Waiting for header (1 ms)
+5/17/2020 2:52:57 PM: User #18 Click #5: Request 5 HTTP State: Receiving Header (417 ms) (=Time to First Byte)
+5/17/2020 2:52:57 PM: User #18 Click #5: Request 5 HTTP State: Waiting for body (417 ms)
+5/17/2020 2:52:57 PM: User #18 Click #5: Request 5 HTTP State: Done (418 ms)
+5/17/2020 2:52:57 PM: User #18 Click #5: CLICK-Request 5: Time=418 ms, TFB=417 ms, Bytes=8,166, HTTP-StatusCode=200 (OK)
+5/17/2020 2:52:57 PM: User #18 Click #5: !Success! All requests of click done (418 ms)  
+5/17/2020 2:52:57 PM: User #18 Click #6: Waiting for global click delay: 10s
+5/17/2020 2:53:07 PM: User #18 Click #6: HTTP request & TCP/IP socket creation: 2 ms
+5/17/2020 2:53:07 PM: User #18 Click #6: ** Click #6 started, used URL #18 () POST-DATA="odjava=Prijava", from IP=0.0.0.0
+5/17/2020 2:53:07 PM: User #18 Click #6: Request 6 HTTP State: Initialized (0 ms)
+5/17/2020 2:53:07 PM: User #18 Click #6: Request 6 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:53:07 PM: User #18 Click #6: Request 6 HTTP State: DNS Lookup done (0 ms)
+5/17/2020 2:53:07 PM: User #18 Click #6: Request 6 HTTP State: Connected (1 ms)
+5/17/2020 2:53:07 PM: User #18 Click #6: Request 6 HTTP State: Waiting for header (1 ms)
+5/17/2020 2:53:08 PM: User #18 Click #6: Request 6 HTTP State: Receiving Header (419 ms) (=Time to First Byte)
+5/17/2020 2:53:08 PM: User #18 Click #6: Request 6 HTTP State: Waiting for body (419 ms)
+5/17/2020 2:53:08 PM: User #18 Click #6: Request 6 HTTP State: Done (419 ms)
+5/17/2020 2:53:08 PM: User #18 Click #6: CLICK-Request 6: Time=419 ms, TFB=419 ms, Bytes=8,166, HTTP-StatusCode=200 (OK)
+5/17/2020 2:53:08 PM: User #18 Click #6: !Success! All requests of click done (432 ms)  
+5/17/2020 2:53:08 PM: User #18 Click #7: Waiting for global click delay: 10s
+5/17/2020 2:53:18 PM: User #18 Click #7: HTTP request & TCP/IP socket creation: 2 ms
+5/17/2020 2:53:18 PM: User #18 Click #7: ** Click #7 started, used URL #18 () POST-DATA="odjava=Prijava", from IP=0.0.0.0
+5/17/2020 2:53:18 PM: User #18 Click #7: Request 7 HTTP State: Initialized (0 ms)
+5/17/2020 2:53:18 PM: User #18 Click #7: Request 7 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:53:18 PM: User #18 Click #7: Request 7 HTTP State: DNS Lookup done (1 ms)
+5/17/2020 2:53:18 PM: User #18 Click #7: Request 7 HTTP State: Connected (2 ms)
+5/17/2020 2:53:18 PM: User #18 Click #7: Request 7 HTTP State: Waiting for header (2 ms)
+5/17/2020 2:53:18 PM: User #18 Click #7: Request 7 HTTP State: Receiving Header (421 ms) (=Time to First Byte)
+5/17/2020 2:53:18 PM: User #18 Click #7: Request 7 HTTP State: Waiting for body (421 ms)
+5/17/2020 2:53:18 PM: User #18 Click #7: Request 7 HTTP State: Done (429 ms)
+5/17/2020 2:53:18 PM: User #18 Click #7: CLICK-Request 7: Time=429 ms, TFB=421 ms, Bytes=8,166, HTTP-StatusCode=200 (OK)
+5/17/2020 2:53:18 PM: User #18 Click #7: !Success! All requests of click done (429 ms)  
+5/17/2020 2:53:18 PM: User #18 Click #8: Waiting for global click delay: 10s
+5/17/2020 2:53:28 PM: User #18 Click #8: HTTP request & TCP/IP socket creation: 3 ms
+5/17/2020 2:53:28 PM: User #18 Click #8: ** Click #8 started, used URL #18 () POST-DATA="odjava=Prijava", from IP=0.0.0.0
+5/17/2020 2:53:28 PM: User #18 Click #8: Request 8 HTTP State: Initialized (0 ms)
+5/17/2020 2:53:28 PM: User #18 Click #8: Request 8 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:53:28 PM: User #18 Click #8: Request 8 HTTP State: DNS Lookup done (1 ms)
+5/17/2020 2:53:28 PM: User #18 Click #8: Request 8 HTTP State: Connected (2 ms)
+5/17/2020 2:53:28 PM: User #18 Click #8: Request 8 HTTP State: Waiting for header (2 ms)
+5/17/2020 2:53:29 PM: User #18 Click #8: Request 8 HTTP State: Receiving Header (435 ms) (=Time to First Byte)
+5/17/2020 2:53:29 PM: User #18 Click #8: Request 8 HTTP State: Waiting for body (435 ms)
+5/17/2020 2:53:29 PM: User #18 Click #8: Request 8 HTTP State: Done (439 ms)
+5/17/2020 2:53:29 PM: User #18 Click #8: CLICK-Request 8: Time=439 ms, TFB=435 ms, Bytes=8,166, HTTP-StatusCode=200 (OK)
+5/17/2020 2:53:29 PM: User #18 Click #8: !Success! All requests of click done (439 ms)  
+5/17/2020 2:53:29 PM: User #18 Click #9: Waiting for global click delay: 10s
+5/17/2020 2:53:39 PM: User #18 Click #9: HTTP request & TCP/IP socket creation: 2 ms
+5/17/2020 2:53:39 PM: User #18 Click #9: ** Click #9 started, used URL #18 () POST-DATA="odjava=Prijava", from IP=0.0.0.0
+5/17/2020 2:53:39 PM: User #18 Click #9: Request 9 HTTP State: Initialized (0 ms)
+5/17/2020 2:53:39 PM: User #18 Click #9: Request 9 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:53:39 PM: User #18 Click #9: Request 9 HTTP State: DNS Lookup done (0 ms)
+5/17/2020 2:53:39 PM: User #18 Click #9: Request 9 HTTP State: Connected (17 ms)
+5/17/2020 2:53:39 PM: User #18 Click #9: Request 9 HTTP State: Waiting for header (17 ms)
+5/17/2020 2:53:39 PM: User #18 Click #9: Request 9 HTTP State: Receiving Header (432 ms) (=Time to First Byte)
+5/17/2020 2:53:39 PM: User #18 Click #9: Request 9 HTTP State: Waiting for body (432 ms)
+5/17/2020 2:53:39 PM: User #18 Click #9: Request 9 HTTP State: Done (437 ms)
+5/17/2020 2:53:39 PM: User #18 Click #9: CLICK-Request 9: Time=437 ms, TFB=432 ms, Bytes=8,166, HTTP-StatusCode=200 (OK)
+5/17/2020 2:53:39 PM: User #18 Click #9: !Success! All requests of click done (437 ms)  
+5/17/2020 2:53:39 PM: User #18 Click #10: Waiting for global click delay: 10s
+5/17/2020 2:53:49 PM: User #18 Click #10: HTTP request & TCP/IP socket creation: 3 ms
+5/17/2020 2:53:49 PM: User #18 Click #10: ** Click #10 started, used URL #18 () POST-DATA="odjava=Prijava", from IP=0.0.0.0
+5/17/2020 2:53:49 PM: User #18 Click #10: Request 10 HTTP State: Initialized (0 ms)
+5/17/2020 2:53:49 PM: User #18 Click #10: Request 10 HTTP State: DNS Lookup begin (10 ms)
+5/17/2020 2:53:49 PM: User #18 Click #10: Request 10 HTTP State: DNS Lookup done (10 ms)
+5/17/2020 2:53:49 PM: User #18 Click #10: Request 10 HTTP State: Connected (11 ms)
+5/17/2020 2:53:49 PM: User #18 Click #10: Request 10 HTTP State: Waiting for header (11 ms)
+5/17/2020 2:53:50 PM: User #18 Click #10: Request 10 HTTP State: Receiving Header (430 ms) (=Time to First Byte)
+5/17/2020 2:53:50 PM: User #18 Click #10: Request 10 HTTP State: Waiting for body (430 ms)
+5/17/2020 2:53:50 PM: User #18 Click #10: Request 10 HTTP State: Done (433 ms)
+5/17/2020 2:53:50 PM: User #18 Click #10: CLICK-Request 10: Time=433 ms, TFB=430 ms, Bytes=8,166, HTTP-StatusCode=200 (OK)
+5/17/2020 2:53:50 PM: User #18 Click #10: !Success! All requests of click done (433 ms)  
+5/17/2020 2:53:56 PM: Writing User Log
+5/17/2020 2:53:57 PM: User passed away

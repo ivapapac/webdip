@@ -1,0 +1,112 @@
+** Test Logfile by Webserver Stress Tool 8.0.0.1010 Enterprise Edition (Freeware) **
+© 1998-2012 Paessler AG, http://www.paessler.com
+ 
+Test run on 5/17/2020 2:51:44 PM
+
+** Project and Scenario Comments, Operator **
+
+
+
+Results of period #1 (from 22 sec to 32 sec ):
+****************************************************************
+Completed Clicks: 19 with 0 Errors (=0.00%)
+Average Click Time for 20 Users: 784 ms 
+Successful clicks per Second: 1.86 (equals 6,684.09 Clicks per Hour)
+
+Results of period #2 (from 32 sec to 43 sec ):
+****************************************************************
+Completed Clicks: 20 with 0 Errors (=0.00%)
+Average Click Time for 20 Users: 796 ms 
+Successful clicks per Second: 1.95 (equals 7,011.40 Clicks per Hour)
+
+Results of period #3 (from 43 sec to 53 sec ):
+****************************************************************
+Completed Clicks: 20 with 0 Errors (=0.00%)
+Average Click Time for 20 Users: 788 ms 
+Successful clicks per Second: 1.95 (equals 7,026.04 Clicks per Hour)
+
+Results of period #4 (from 53 sec to 63 sec ):
+****************************************************************
+Completed Clicks: 19 with 0 Errors (=0.00%)
+Average Click Time for 20 Users: 761 ms 
+Successful clicks per Second: 1.85 (equals 6,644.34 Clicks per Hour)
+
+Results of period #5 (from 63 sec to 74 sec ):
+****************************************************************
+Completed Clicks: 19 with 0 Errors (=0.00%)
+Average Click Time for 20 Users: 784 ms 
+Successful clicks per Second: 1.85 (equals 6,646.51 Clicks per Hour)
+
+Results of period #6 (from 74 sec to 84 sec ):
+****************************************************************
+Completed Clicks: 16 with 0 Errors (=0.00%)
+Average Click Time for 20 Users: 749 ms 
+Successful clicks per Second: 1.56 (equals 5,599.41 Clicks per Hour)
+
+Results of period #7 (from 84 sec to 94 sec ):
+****************************************************************
+Completed Clicks: 19 with 0 Errors (=0.00%)
+Average Click Time for 20 Users: 761 ms 
+Successful clicks per Second: 1.85 (equals 6,648.06 Clicks per Hour)
+
+Results of period #8 (from 94 sec to 104 sec ):
+****************************************************************
+Completed Clicks: 18 with 0 Errors (=0.00%)
+Average Click Time for 20 Users: 780 ms 
+Successful clicks per Second: 1.74 (equals 6,273.60 Clicks per Hour)
+
+Results of period #9 (from 104 sec to 115 sec ):
+****************************************************************
+Completed Clicks: 19 with 0 Errors (=0.00%)
+Average Click Time for 20 Users: 811 ms 
+Successful clicks per Second: 1.84 (equals 6,638.67 Clicks per Hour)
+
+Results of period #10 (from 115 sec to 125 sec ):
+****************************************************************
+Completed Clicks: 20 with 0 Errors (=0.00%)
+Average Click Time for 20 Users: 785 ms 
+Successful clicks per Second: 1.94 (equals 6,995.46 Clicks per Hour)
+
+Results of complete test
+****************************************************************
+
+** Results per URL for complete test **
+
+URL#1 (): Average Click Time 430 ms, 10 Clicks, 0 Errors 
+URL#2 (): Average Click Time 838 ms, 10 Clicks, 0 Errors 
+URL#3 (): Average Click Time 837 ms, 10 Clicks, 0 Errors 
+URL#4 (): Average Click Time 440 ms, 10 Clicks, 0 Errors 
+URL#5 (): Average Click Time 429 ms, 10 Clicks, 0 Errors 
+URL#6 (): Average Click Time 864 ms, 10 Clicks, 0 Errors 
+URL#7 (): Average Click Time 1,266 ms, 9 Clicks, 0 Errors 
+URL#8 (): Average Click Time 873 ms, 10 Clicks, 0 Errors 
+URL#9 (): Average Click Time 1,264 ms, 9 Clicks, 0 Errors 
+URL#10 (): Average Click Time 1,260 ms, 9 Clicks, 0 Errors 
+URL#11 (): Average Click Time 872 ms, 9 Clicks, 0 Errors 
+URL#12 (): Average Click Time 837 ms, 9 Clicks, 0 Errors 
+URL#13 (): Average Click Time 1,265 ms, 9 Clicks, 0 Errors 
+URL#14 (): Average Click Time 860 ms, 9 Clicks, 0 Errors 
+URL#15 (): Average Click Time 855 ms, 9 Clicks, 0 Errors 
+URL#16 (): Average Click Time 429 ms, 10 Clicks, 0 Errors 
+URL#17 (): Average Click Time 430 ms, 10 Clicks, 0 Errors 
+URL#18 (): Average Click Time 432 ms, 9 Clicks, 0 Errors 
+URL#19 (): Average Click Time 432 ms, 9 Clicks, 0 Errors 
+URL#20 (): Average Click Time 859 ms, 9 Clicks, 0 Errors 
+
+Total Number of Clicks: 189 (0 Errors)
+Average Click Time of all URLs: 781 ms 
+
+
+!! Glossary:
+!! Click: A simulated mouse click of a user sending a request (one of the URLs from the URL list) to the server and immediately requesting any necessary redirects, frames and images (if enabled).
+!! Request: A HTTP request sent to the server regardless of an answer.
+!! Hit: A completed HTTP request (i.e. sent to the server and answered completely). Hits can be the PAGE request of a "click" or its frames, images etc.
+!! Time for DNS: Time to resolve a URL's domain name using the client system's current DNS server.
+!! Time to connect: Time to set up a connection to the server.
+!! Time to first byte (TFB): Time between initiating a request and receiving the first byte of data from the server.
+!! Click Time: The time a user had to wait until his "click" was finished (including redirections/frames/images etc.).
+!! User Bandwidth: The bandwidth a user was able to achieve.
+!! Sent Requests: Number of requests sent to the server during a period.
+!! Received Requests: Number of answers received from the server during a period.
+
+

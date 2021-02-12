@@ -1,0 +1,116 @@
+@media only print {
+    header, footer, img, .poveznice, .navigacija, audio, video, iframe {
+        display: none;
+    }
+
+    /* Početna stranica */
+
+    .grey-container {
+        background-color: white;
+    }
+
+    .clanak {
+        box-shadow: none;
+        padding: 0;
+    }
+
+    /* Registracija i prijava */
+
+    .registracija-obrazac button, .prijava-obrazac .potvrdi-btn, .prijava-obrazac .odustani-btn {
+        box-shadow: none;
+        justify-self: right;
+    }
+
+    .registracija-obrazac, .prijava-obrazac{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 10px;
+    }
+
+    .registracija-obrazac label, .prijava-obrazac label {
+        grid-column: 1;
+        text-align: right;
+    }
+
+    .registracija-obrazac input, .prijava-obrazac input {
+        grid-column: 2;
+        width: 300px;
+    }
+
+    /* Obrazac */ 
+
+    .obrazac-sadrzaj, .obrazac-sadrzaj button {
+        box-shadow: none;
+    }
+
+    .obrazac-sadrzaj{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    /* Popis */ 
+    table#popis-proizvoda {
+        display: none;
+    }
+
+    table#popis-mobitel caption {
+        margin-bottom: 20px;
+        font-size: 1.5em;
+        color: #E57070;
+        font-weight: bold;
+    }
+
+    th, td, tr{
+        border: 1px solid #707070;
+        border-collapse: initial;
+    }
+
+    table#popis-mobitel tbody::after{
+        content: ' ';
+        display: block;
+        height: 20px;
+        background-color: white;
+    }
+
+    table#popis-mobitel th {
+        padding-right: 50px;
+    }
+
+    table#popis-mobitel th{
+        text-align: left;
+    }
+
+    table#popis-mobitel td{
+        text-align: center;
+    }
+}
+
+@media only print and (orientation: landscape){
+    .clanak:nth-of-type(3) {
+        margin-top: 150px;
+    }
+
+    table#popis-mobitel {
+        display: none;
+    }
+    
+    table#popis-proizvoda {
+        margin-top: 150px;
+        display: initial;
+        text-align: center;
+        padding: 15px;
+    }
+
+    table#popis-proizvoda caption {
+        margin-bottom: 20px;
+        font-size: 1.5em;
+        color: #E57070;
+        font-weight: bold;
+    }
+
+    tr, th, td{
+        border: 1px solid #707070;
+        border-collapse: collapse
+    }
+}

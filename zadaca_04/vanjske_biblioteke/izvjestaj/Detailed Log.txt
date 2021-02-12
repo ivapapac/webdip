@@ -1,0 +1,888 @@
+5/17/2020 2:51:44 PM: ** Test Logfile by Webserver Stress Tool 8.0.0.1010 Enterprise Edition (Freeware) **
+5/17/2020 2:51:44 PM: © 1998-2012 Paessler AG, http://www.paessler.com
+5/17/2020 2:51:44 PM:  
+5/17/2020 2:51:44 PM: Test run on 5/17/2020 2:51:44 PM
+5/17/2020 2:51:44 PM: 
+5/17/2020 2:51:44 PM: ** Project and Scenario Comments, Operator **
+5/17/2020 2:51:44 PM: 
+5/17/2020 2:51:44 PM: ** Test Setup **
+5/17/2020 2:51:44 PM: Test Type: CLICKS (run test until 10 clicks per user)
+5/17/2020 2:51:44 PM: User Simulation: 20 simultaneous users - 10 seconds between clicks
+5/17/2020 2:51:44 PM:  
+5/17/2020 2:51:44 PM: Logging Period: Log every 10 seconds
+5/17/2020 2:51:44 PM:  
+5/17/2020 2:51:44 PM: ** URLs **
+5/17/2020 2:51:44 PM: URL Sequencing: Users always click the same URL (to spreads load evenly on all URLs, set number of users to a multiple of the number of URLs!)
+5/17/2020 2:51:44 PM: 20 URLs
+5/17/2020 2:51:44 PM:   URL#1: GET http://localhost/zadaca_04/index.php POSTDATA= Click Delay=
+5/17/2020 2:51:44 PM:   URL#2: GET http://localhost/zadaca_04/obrasci/registracija.php POSTDATA= Click Delay=
+5/17/2020 2:51:44 PM:   URL#3: POST http://localhost/zadaca_04/obrasci/registracija.php POSTDATA=id=&ime=Ivan&prezime=Ivi%C4%87&korisnicko_ime=iivic&godina=2000&email=iivc@foi.hr&lozinka=123&potvrdi_lozinku=123&submit=DODAJ Click Delay=
+5/17/2020 2:51:44 PM:   URL#4: GET http://localhost/zadaca_04/obrasci/prijava.php POSTDATA= Click Delay=
+5/17/2020 2:51:44 PM:   URL#5: POST http://localhost/zadaca_04/obrasci/prijava.php POSTDATA=korisnicko_ime=ipapac&lozinka=lozinka&submit=POTVRDI Click Delay=
+5/17/2020 2:51:44 PM:   URL#6: GET http://localhost/zadaca_04/ostalo/popis.php POSTDATA= Click Delay=
+5/17/2020 2:51:44 PM:   URL#7: POST http://localhost/zadaca_04/obrasci/obrazac.php POSTDATA=id=9 Click Delay=
+5/17/2020 2:51:44 PM:   URL#8: GET http://localhost/zadaca_04/ostalo/popis.php POSTDATA= Click Delay=
+5/17/2020 2:51:44 PM:   URL#9: GET http://localhost/zadaca_04/obrasci/obrazac.php?id=9 POSTDATA= Click Delay=
+5/17/2020 2:51:44 PM:   URL#10: POST http://localhost/zadaca_04/obrasci/obrazac.php?id=9 POSTDATA=-----------------------------7e48d1b30708 Click Delay=
+5/17/2020 2:51:44 PM:   URL#11: GET http://localhost/zadaca_04/ostalo/multimedija.php POSTDATA= Click Delay=
+5/17/2020 2:51:44 PM:   URL#12: GET http://localhost/zadaca_04/obrasci/registracija.php POSTDATA= Click Delay=
+5/17/2020 2:51:44 PM:   URL#13: GET http://localhost/zadaca_04/obrasci/obrazac.php POSTDATA= Click Delay=
+5/17/2020 2:51:44 PM:   URL#14: GET http://localhost/zadaca_04/ostalo/popis.php POSTDATA= Click Delay=
+5/17/2020 2:51:44 PM:   URL#15: GET http://localhost/zadaca_04/ostalo/multimedija.php POSTDATA= Click Delay=
+5/17/2020 2:51:44 PM:   URL#16: GET http://localhost/zadaca_04/index.php POSTDATA= Click Delay=
+5/17/2020 2:51:44 PM:   URL#17: POST http://localhost/zadaca_04/index.php POSTDATA=odjava=Odjava Click Delay=
+5/17/2020 2:51:44 PM:   URL#18: POST http://localhost/zadaca_04/index.php POSTDATA=odjava=Prijava Click Delay=
+5/17/2020 2:51:44 PM:   URL#19: POST http://localhost/zadaca_04/obrasci/prijava.php POSTDATA=korisnicko_ime=ipapac&lozinka=lozinka&submit=POTVRDI Click Delay=
+5/17/2020 2:51:44 PM:   URL#20: GET http://localhost/zadaca_04/ostalo/popis.php POSTDATA= Click Delay=
+5/17/2020 2:51:44 PM:  
+5/17/2020 2:51:44 PM: ** Browser Settings **
+5/17/2020 2:51:44 PM: Browser Simulation: 
+5/17/2020 2:51:44 PM:   User Agent: Mozilla/5.0 (compatible; Webserver Stress Tool; Windows)
+5/17/2020 2:51:44 PM:   HTTP Request Timeout: 120 s
+5/17/2020 2:51:44 PM:  
+5/17/2020 2:51:44 PM: Recursive Browsing / HTML Parsing: 
+5/17/2020 2:51:44 PM:  
+5/17/2020 2:51:44 PM: ** Options **
+5/17/2020 2:51:44 PM: Advanced Settings: 
+5/17/2020 2:51:44 PM: Logging:
+5/17/2020 2:51:44 PM:   Write detailed log(s)
+5/17/2020 2:51:44 PM: Timer: not enabled
+5/17/2020 2:51:44 PM:  
+5/17/2020 2:51:44 PM: Local IPs: Automatic
+5/17/2020 2:51:44 PM: Advanced Data Merging Features:
+5/17/2020 2:51:44 PM:  
+5/17/2020 2:51:44 PM: ** Client System **
+5/17/2020 2:51:44 PM:   Windows 8/2012 V6.2 (Build 9200) , CPU Proc. Lev. 686 (Rev. 40457) at 2,496 MHz, 
+5/17/2020 2:51:44 PM:   3509 MB available RAM of 8467 MB total physical RAM, 4922 MB available pagefile
+5/17/2020 2:51:44 PM:  
+5/17/2020 2:51:44 PM: Test is starting
+5/17/2020 2:51:44 PM: ----------------------------------------------------
+5/17/2020 2:51:44 PM: Creating Users...
+5/17/2020 2:51:44 PM: Pre-Requesting URLs once... (for DNS/DLL/SYSTEM initialization)
+5/17/2020 2:51:44 PM:    Pre-Requesting: HEAD Request to URL #1
+5/17/2020 2:51:49 PM:    Pre-Requesting: HEAD Request to URL #2
+5/17/2020 2:51:50 PM:    Pre-Requesting: HEAD Request to URL #3
+5/17/2020 2:51:51 PM:    Pre-Requesting: HEAD Request to URL #4
+5/17/2020 2:51:51 PM:    Pre-Requesting: HEAD Request to URL #5
+5/17/2020 2:51:52 PM:    Pre-Requesting: HEAD Request to URL #6
+5/17/2020 2:51:53 PM:    Pre-Requesting: HEAD Request to URL #7
+5/17/2020 2:51:55 PM:    Pre-Requesting: HEAD Request to URL #8
+5/17/2020 2:51:56 PM:    Pre-Requesting: HEAD Request to URL #9
+5/17/2020 2:51:57 PM:    Pre-Requesting: HEAD Request to URL #10
+5/17/2020 2:51:59 PM:    Pre-Requesting: HEAD Request to URL #11
+5/17/2020 2:51:59 PM:    Pre-Requesting: HEAD Request to URL #12
+5/17/2020 2:52:00 PM:    Pre-Requesting: HEAD Request to URL #13
+5/17/2020 2:52:01 PM:    Pre-Requesting: HEAD Request to URL #14
+5/17/2020 2:52:03 PM:    Pre-Requesting: HEAD Request to URL #15
+5/17/2020 2:52:04 PM:    Pre-Requesting: HEAD Request to URL #16
+5/17/2020 2:52:04 PM:    Pre-Requesting: HEAD Request to URL #17
+5/17/2020 2:52:04 PM:    Pre-Requesting: HEAD Request to URL #18
+5/17/2020 2:52:05 PM:    Pre-Requesting: HEAD Request to URL #19
+5/17/2020 2:52:05 PM:    Pre-Requesting: HEAD Request to URL #20
+5/17/2020 2:52:06 PM: Pre-Requests done
+5/17/2020 2:52:06 PM: Test preparations done
+5/17/2020 2:52:06 PM: 
+5/17/2020 2:52:06 PM: Master Controller will start now...
+5/17/2020 2:52:07 PM: Switching to 20 users.
+5/17/2020 2:52:17 PM: 
+5/17/2020 2:52:17 PM: 
+5/17/2020 2:52:17 PM: Results of period #1 (from 22 sec to 32 sec ):
+5/17/2020 2:52:17 PM: ****************************************************************
+5/17/2020 2:52:17 PM: Analyzed Time span of this period: 10,233 msec
+5/17/2020 2:52:17 PM: Sent/Received Requests: 20 / 19 (=5.00% not answered in this period)
+5/17/2020 2:52:17 PM: Completed Hits: 19 (including images, frames etc.)
+5/17/2020 2:52:17 PM: Completed Clicks: 19 with 0 Errors (=0.00%)
+5/17/2020 2:52:17 PM: 
+5/17/2020 2:52:17 PM: Results for Images for this period:
+5/17/2020 2:52:17 PM: Image Hits: 0 with 0 Errors
+5/17/2020 2:52:17 PM: 
+5/17/2020 2:52:17 PM: Spectrum of Click Times
+5/17/2020 2:52:17 PM: 0.00% of All Users waited <100ms
+5/17/2020 2:52:17 PM: 0.00% of All Users waited <200ms
+5/17/2020 2:52:17 PM: 36.84% of All Users waited <500ms
+5/17/2020 2:52:17 PM: 42.11% of All Users waited <1s
+5/17/2020 2:52:17 PM: 21.05% of All Users waited <2s
+5/17/2020 2:52:17 PM: 0.00% of All Users waited <5s
+5/17/2020 2:52:17 PM: 0.00% of All Users waited <10s
+5/17/2020 2:52:17 PM: 0.00% of All Users waited <20s
+5/17/2020 2:52:17 PM: 0.00% of All Users waited <50s
+5/17/2020 2:52:17 PM: 0.00% of All Users waited <100s
+5/17/2020 2:52:17 PM: 
+5/17/2020 2:52:17 PM: Measured Times:
+5/17/2020 2:52:17 PM: Average Time to Create Local Socket for 20 Users: 11 ms 
+5/17/2020 2:52:17 PM: Average DNS Time for 20 Users: 146 ms 
+5/17/2020 2:52:17 PM: Average Time to Connect for 20 Users: 147 ms 
+5/17/2020 2:52:17 PM: Average Time to First Byte for 20 Users: 571 ms 
+5/17/2020 2:52:17 PM: Average Click Time for 20 Users: 784 ms 
+5/17/2020 2:52:17 PM: 
+5/17/2020 2:52:17 PM: Hits per Second: 1.86 (equals 6,684.09 Hits per Hour)
+5/17/2020 2:52:17 PM: Successful clicks per Second: 1.86 (equals 6,684.09 Clicks per Hour)
+5/17/2020 2:52:17 PM: 
+5/17/2020 2:52:17 PM: Results per URL for this Period:
+5/17/2020 2:52:17 PM: URL#1 (): Average Click Time 437 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: URL#2 (): Average Click Time 854 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: URL#3 (): Average Click Time 835 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: URL#4 (): Average Click Time 428 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: URL#5 (): Average Click Time 432 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: URL#6 (): Average Click Time 873 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: URL#7 (): Average Click Time 1,280 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: URL#8 (): Average Click Time 858 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: URL#9 (): Average Click Time 1,275 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: URL#10 (): Average Click Time 1,254 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: URL#11 (): Average Click Time 852 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: URL#12 (): Average Click Time 837 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: URL#13 (): Average Click Time 1,265 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: URL#14 (): Average Click Time 849 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: URL#15 (): Average Click Time 850 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: URL#16 (): Average Click Time 425 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: URL#17 (): Average Click Time 432 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: URL#18 (): Average Click Time 431 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: URL#19 (): Average Click Time 433 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: URL#20 (): 0 Clicks, 0 Errors, 
+5/17/2020 2:52:17 PM: Average Click Time of all URLs: 784 ms 
+5/17/2020 2:52:17 PM: 
+5/17/2020 2:52:17 PM: Resulting page statuscodes for this period:
+5/17/2020 2:52:17 PM: 19x "200" (=OK)
+5/17/2020 2:52:17 PM: 
+5/17/2020 2:52:17 PM: Datavolume and Bandwidth for this period:
+5/17/2020 2:52:17 PM: Average User Bandwidth: 70.08 kbit/s 
+5/17/2020 2:52:17 PM: Total Bytes: 103,403 Bytes (103 kByte) (Throughput ~81 kbit/sec)
+5/17/2020 2:52:17 PM: 
+5/17/2020 2:52:17 PM: 
+5/17/2020 2:52:27 PM: 
+5/17/2020 2:52:27 PM: 
+5/17/2020 2:52:27 PM: Results of period #2 (from 32 sec to 43 sec ):
+5/17/2020 2:52:27 PM: ****************************************************************
+5/17/2020 2:52:27 PM: Analyzed Time span of this period: 10,269 msec
+5/17/2020 2:52:27 PM: Sent/Received Requests: 20 / 20 (=0.00% not answered in this period)
+5/17/2020 2:52:27 PM: Completed Hits: 20 (including images, frames etc.)
+5/17/2020 2:52:27 PM: Completed Clicks: 20 with 0 Errors (=0.00%)
+5/17/2020 2:52:27 PM: 
+5/17/2020 2:52:27 PM: Results for Images for this period:
+5/17/2020 2:52:27 PM: Image Hits: 0 with 0 Errors
+5/17/2020 2:52:27 PM: 
+5/17/2020 2:52:27 PM: Spectrum of Click Times
+5/17/2020 2:52:27 PM: 0.00% of All Users waited <100ms
+5/17/2020 2:52:27 PM: 0.00% of All Users waited <200ms
+5/17/2020 2:52:27 PM: 30.00% of All Users waited <500ms
+5/17/2020 2:52:27 PM: 50.00% of All Users waited <1s
+5/17/2020 2:52:27 PM: 20.00% of All Users waited <2s
+5/17/2020 2:52:27 PM: 0.00% of All Users waited <5s
+5/17/2020 2:52:27 PM: 0.00% of All Users waited <10s
+5/17/2020 2:52:27 PM: 0.00% of All Users waited <20s
+5/17/2020 2:52:27 PM: 0.00% of All Users waited <50s
+5/17/2020 2:52:27 PM: 0.00% of All Users waited <100s
+5/17/2020 2:52:27 PM: 
+5/17/2020 2:52:27 PM: Measured Times:
+5/17/2020 2:52:27 PM: Average Time to Create Local Socket for 20 Users: 3 ms 
+5/17/2020 2:52:27 PM: Average DNS Time for 20 Users: 153 ms 
+5/17/2020 2:52:27 PM: Average Time to Connect for 20 Users: 154 ms 
+5/17/2020 2:52:27 PM: Average Time to First Byte for 20 Users: 570 ms 
+5/17/2020 2:52:27 PM: Average Click Time for 20 Users: 796 ms 
+5/17/2020 2:52:27 PM: 
+5/17/2020 2:52:27 PM: Hits per Second: 1.95 (equals 7,011.40 Hits per Hour)
+5/17/2020 2:52:27 PM: Successful clicks per Second: 1.95 (equals 7,011.40 Clicks per Hour)
+5/17/2020 2:52:27 PM: 
+5/17/2020 2:52:27 PM: Results per URL for this Period:
+5/17/2020 2:52:27 PM: URL#1 (): Average Click Time 427 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: URL#2 (): Average Click Time 830 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: URL#3 (): Average Click Time 844 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: URL#4 (): Average Click Time 531 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: URL#5 (): Average Click Time 432 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: URL#6 (): Average Click Time 865 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: URL#7 (): Average Click Time 1,280 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: URL#8 (): Average Click Time 877 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: URL#9 (): Average Click Time 1,280 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: URL#10 (): Average Click Time 1,260 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: URL#11 (): Average Click Time 859 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: URL#12 (): Average Click Time 835 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: URL#13 (): Average Click Time 1,272 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: URL#14 (): Average Click Time 886 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: URL#15 (): Average Click Time 857 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: URL#16 (): Average Click Time 435 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: URL#17 (): Average Click Time 430 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: URL#18 (): Average Click Time 433 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: URL#19 (): Average Click Time 429 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: URL#20 (): Average Click Time 858 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:27 PM: Average Click Time of all URLs: 796 ms 
+5/17/2020 2:52:27 PM: 
+5/17/2020 2:52:27 PM: Resulting page statuscodes for this period:
+5/17/2020 2:52:27 PM: 20x "200" (=OK)
+5/17/2020 2:52:27 PM: 
+5/17/2020 2:52:27 PM: Datavolume and Bandwidth for this period:
+5/17/2020 2:52:27 PM: Average User Bandwidth: 67.89 kbit/s 
+5/17/2020 2:52:27 PM: Total Bytes: 108,142 Bytes (108 kByte) (Throughput ~84 kbit/sec)
+5/17/2020 2:52:27 PM: 
+5/17/2020 2:52:27 PM: 
+5/17/2020 2:52:37 PM: 
+5/17/2020 2:52:37 PM: 
+5/17/2020 2:52:37 PM: Results of period #3 (from 43 sec to 53 sec ):
+5/17/2020 2:52:37 PM: ****************************************************************
+5/17/2020 2:52:37 PM: Analyzed Time span of this period: 10,248 msec
+5/17/2020 2:52:37 PM: Sent/Received Requests: 19 / 20 (=-5.26% not answered in this period)
+5/17/2020 2:52:37 PM: Completed Hits: 20 (including images, frames etc.)
+5/17/2020 2:52:37 PM: Completed Clicks: 20 with 0 Errors (=0.00%)
+5/17/2020 2:52:37 PM: 
+5/17/2020 2:52:37 PM: Results for Images for this period:
+5/17/2020 2:52:37 PM: Image Hits: 0 with 0 Errors
+5/17/2020 2:52:37 PM: 
+5/17/2020 2:52:37 PM: Spectrum of Click Times
+5/17/2020 2:52:37 PM: 0.00% of All Users waited <100ms
+5/17/2020 2:52:37 PM: 0.00% of All Users waited <200ms
+5/17/2020 2:52:37 PM: 35.00% of All Users waited <500ms
+5/17/2020 2:52:37 PM: 45.00% of All Users waited <1s
+5/17/2020 2:52:37 PM: 20.00% of All Users waited <2s
+5/17/2020 2:52:37 PM: 0.00% of All Users waited <5s
+5/17/2020 2:52:37 PM: 0.00% of All Users waited <10s
+5/17/2020 2:52:37 PM: 0.00% of All Users waited <20s
+5/17/2020 2:52:37 PM: 0.00% of All Users waited <50s
+5/17/2020 2:52:37 PM: 0.00% of All Users waited <100s
+5/17/2020 2:52:37 PM: 
+5/17/2020 2:52:37 PM: Measured Times:
+5/17/2020 2:52:37 PM: Average Time to Create Local Socket for 20 Users: 2 ms 
+5/17/2020 2:52:37 PM: Average DNS Time for 20 Users: 152 ms 
+5/17/2020 2:52:37 PM: Average Time to Connect for 20 Users: 152 ms 
+5/17/2020 2:52:37 PM: Average Time to First Byte for 20 Users: 576 ms 
+5/17/2020 2:52:37 PM: Average Click Time for 20 Users: 788 ms 
+5/17/2020 2:52:37 PM: 
+5/17/2020 2:52:37 PM: Hits per Second: 1.95 (equals 7,026.04 Hits per Hour)
+5/17/2020 2:52:37 PM: Successful clicks per Second: 1.95 (equals 7,026.04 Clicks per Hour)
+5/17/2020 2:52:37 PM: 
+5/17/2020 2:52:37 PM: Results per URL for this Period:
+5/17/2020 2:52:37 PM: URL#1 (): Average Click Time 432 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: URL#2 (): Average Click Time 838 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: URL#3 (): Average Click Time 832 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: URL#4 (): Average Click Time 435 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: URL#5 (): Average Click Time 433 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: URL#6 (): Average Click Time 872 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: URL#7 (): Average Click Time 1,270 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: URL#8 (): Average Click Time 854 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: URL#9 (): Average Click Time 1,262 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: URL#10 (): Average Click Time 1,250 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: URL#11 (): Average Click Time 908 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: URL#12 (): Average Click Time 838 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: URL#13 (): Average Click Time 1,252 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: URL#14 (): Average Click Time 851 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: URL#15 (): Average Click Time 842 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: URL#16 (): Average Click Time 420 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: URL#17 (): Average Click Time 426 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: URL#18 (): Average Click Time 436 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: URL#19 (): Average Click Time 432 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: URL#20 (): Average Click Time 880 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:37 PM: Average Click Time of all URLs: 788 ms 
+5/17/2020 2:52:37 PM: 
+5/17/2020 2:52:37 PM: Resulting page statuscodes for this period:
+5/17/2020 2:52:37 PM: 20x "200" (=OK)
+5/17/2020 2:52:37 PM: 
+5/17/2020 2:52:37 PM: Datavolume and Bandwidth for this period:
+5/17/2020 2:52:37 PM: Average User Bandwidth: 68.84 kbit/s 
+5/17/2020 2:52:37 PM: Total Bytes: 108,142 Bytes (108 kByte) (Throughput ~84 kbit/sec)
+5/17/2020 2:52:37 PM: 
+5/17/2020 2:52:37 PM: 
+5/17/2020 2:52:48 PM: 
+5/17/2020 2:52:48 PM: 
+5/17/2020 2:52:48 PM: Results of period #4 (from 53 sec to 63 sec ):
+5/17/2020 2:52:48 PM: ****************************************************************
+5/17/2020 2:52:48 PM: Analyzed Time span of this period: 10,294 msec
+5/17/2020 2:52:48 PM: Sent/Received Requests: 20 / 19 (=5.00% not answered in this period)
+5/17/2020 2:52:48 PM: Completed Hits: 19 (including images, frames etc.)
+5/17/2020 2:52:48 PM: Completed Clicks: 19 with 0 Errors (=0.00%)
+5/17/2020 2:52:48 PM: 
+5/17/2020 2:52:48 PM: Results for Images for this period:
+5/17/2020 2:52:48 PM: Image Hits: 0 with 0 Errors
+5/17/2020 2:52:48 PM: 
+5/17/2020 2:52:48 PM: Spectrum of Click Times
+5/17/2020 2:52:48 PM: 0.00% of All Users waited <100ms
+5/17/2020 2:52:48 PM: 0.00% of All Users waited <200ms
+5/17/2020 2:52:48 PM: 36.84% of All Users waited <500ms
+5/17/2020 2:52:48 PM: 47.37% of All Users waited <1s
+5/17/2020 2:52:48 PM: 15.79% of All Users waited <2s
+5/17/2020 2:52:48 PM: 0.00% of All Users waited <5s
+5/17/2020 2:52:48 PM: 0.00% of All Users waited <10s
+5/17/2020 2:52:48 PM: 0.00% of All Users waited <20s
+5/17/2020 2:52:48 PM: 0.00% of All Users waited <50s
+5/17/2020 2:52:48 PM: 0.00% of All Users waited <100s
+5/17/2020 2:52:48 PM: 
+5/17/2020 2:52:48 PM: Measured Times:
+5/17/2020 2:52:48 PM: Average Time to Create Local Socket for 20 Users: 2 ms 
+5/17/2020 2:52:48 PM: Average DNS Time for 20 Users: 139 ms 
+5/17/2020 2:52:48 PM: Average Time to Connect for 20 Users: 142 ms 
+5/17/2020 2:52:48 PM: Average Time to First Byte for 20 Users: 555 ms 
+5/17/2020 2:52:48 PM: Average Click Time for 20 Users: 761 ms 
+5/17/2020 2:52:48 PM: 
+5/17/2020 2:52:48 PM: Hits per Second: 1.85 (equals 6,644.34 Hits per Hour)
+5/17/2020 2:52:48 PM: Successful clicks per Second: 1.85 (equals 6,644.34 Clicks per Hour)
+5/17/2020 2:52:48 PM: 
+5/17/2020 2:52:48 PM: Results per URL for this Period:
+5/17/2020 2:52:48 PM: URL#1 (): Average Click Time 420 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: URL#2 (): Average Click Time 846 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: URL#3 (): Average Click Time 839 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: URL#4 (): Average Click Time 427 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: URL#5 (): Average Click Time 432 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: URL#6 (): Average Click Time 861 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: URL#7 (): Average Click Time 1,256 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: URL#8 (): Average Click Time 870 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: URL#9 (): Average Click Time 1,256 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: URL#10 (): Average Click Time 1,257 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: URL#11 (): Average Click Time 852 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: URL#12 (): Average Click Time 848 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: URL#13 (): 0 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: URL#14 (): Average Click Time 848 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: URL#15 (): Average Click Time 854 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: URL#16 (): Average Click Time 433 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: URL#17 (): Average Click Time 433 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: URL#18 (): Average Click Time 432 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: URL#19 (): Average Click Time 436 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: URL#20 (): Average Click Time 854 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:48 PM: Average Click Time of all URLs: 761 ms 
+5/17/2020 2:52:48 PM: 
+5/17/2020 2:52:48 PM: Resulting page statuscodes for this period:
+5/17/2020 2:52:48 PM: 19x "200" (=OK)
+5/17/2020 2:52:48 PM: 
+5/17/2020 2:52:48 PM: Datavolume and Bandwidth for this period:
+5/17/2020 2:52:48 PM: Average User Bandwidth: 70.97 kbit/s 
+5/17/2020 2:52:48 PM: Total Bytes: 103,381 Bytes (103 kByte) (Throughput ~80 kbit/sec)
+5/17/2020 2:52:48 PM: 
+5/17/2020 2:52:48 PM: 
+5/17/2020 2:52:58 PM: 
+5/17/2020 2:52:58 PM: 
+5/17/2020 2:52:58 PM: Results of period #5 (from 63 sec to 74 sec ):
+5/17/2020 2:52:58 PM: ****************************************************************
+5/17/2020 2:52:58 PM: Analyzed Time span of this period: 10,291 msec
+5/17/2020 2:52:58 PM: Sent/Received Requests: 20 / 19 (=5.00% not answered in this period)
+5/17/2020 2:52:58 PM: Completed Hits: 19 (including images, frames etc.)
+5/17/2020 2:52:58 PM: Completed Clicks: 19 with 0 Errors (=0.00%)
+5/17/2020 2:52:58 PM: 
+5/17/2020 2:52:58 PM: Results for Images for this period:
+5/17/2020 2:52:58 PM: Image Hits: 0 with 0 Errors
+5/17/2020 2:52:58 PM: 
+5/17/2020 2:52:58 PM: Spectrum of Click Times
+5/17/2020 2:52:58 PM: 0.00% of All Users waited <100ms
+5/17/2020 2:52:58 PM: 0.00% of All Users waited <200ms
+5/17/2020 2:52:58 PM: 36.84% of All Users waited <500ms
+5/17/2020 2:52:58 PM: 42.11% of All Users waited <1s
+5/17/2020 2:52:58 PM: 21.05% of All Users waited <2s
+5/17/2020 2:52:58 PM: 0.00% of All Users waited <5s
+5/17/2020 2:52:58 PM: 0.00% of All Users waited <10s
+5/17/2020 2:52:58 PM: 0.00% of All Users waited <20s
+5/17/2020 2:52:58 PM: 0.00% of All Users waited <50s
+5/17/2020 2:52:58 PM: 0.00% of All Users waited <100s
+5/17/2020 2:52:58 PM: 
+5/17/2020 2:52:58 PM: Measured Times:
+5/17/2020 2:52:58 PM: Average Time to Create Local Socket for 20 Users: 2 ms 
+5/17/2020 2:52:58 PM: Average DNS Time for 20 Users: 150 ms 
+5/17/2020 2:52:58 PM: Average Time to Connect for 20 Users: 152 ms 
+5/17/2020 2:52:58 PM: Average Time to First Byte for 20 Users: 580 ms 
+5/17/2020 2:52:58 PM: Average Click Time for 20 Users: 784 ms 
+5/17/2020 2:52:58 PM: 
+5/17/2020 2:52:58 PM: Hits per Second: 1.85 (equals 6,646.51 Hits per Hour)
+5/17/2020 2:52:58 PM: Successful clicks per Second: 1.85 (equals 6,646.51 Clicks per Hour)
+5/17/2020 2:52:58 PM: 
+5/17/2020 2:52:58 PM: Results per URL for this Period:
+5/17/2020 2:52:58 PM: URL#1 (): Average Click Time 425 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: URL#2 (): Average Click Time 826 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: URL#3 (): Average Click Time 825 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: URL#4 (): Average Click Time 419 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: URL#5 (): Average Click Time 419 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: URL#6 (): Average Click Time 867 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: URL#7 (): Average Click Time 1,269 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: URL#8 (): Average Click Time 964 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: URL#9 (): Average Click Time 1,264 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: URL#10 (): Average Click Time 1,270 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: URL#11 (): Average Click Time 859 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: URL#12 (): Average Click Time 825 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: URL#13 (): Average Click Time 1,268 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: URL#14 (): Average Click Time 859 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: URL#15 (): 0 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: URL#16 (): Average Click Time 421 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: URL#17 (): Average Click Time 420 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: URL#18 (): Average Click Time 418 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: URL#19 (): Average Click Time 429 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: URL#20 (): Average Click Time 854 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:52:58 PM: Average Click Time of all URLs: 784 ms 
+5/17/2020 2:52:58 PM: 
+5/17/2020 2:52:58 PM: Resulting page statuscodes for this period:
+5/17/2020 2:52:58 PM: 19x "200" (=OK)
+5/17/2020 2:52:58 PM: 
+5/17/2020 2:52:58 PM: Datavolume and Bandwidth for this period:
+5/17/2020 2:52:58 PM: Average User Bandwidth: 70.97 kbit/s 
+5/17/2020 2:52:58 PM: Total Bytes: 103,383 Bytes (103 kByte) (Throughput ~80 kbit/sec)
+5/17/2020 2:52:58 PM: 
+5/17/2020 2:52:58 PM: 
+5/17/2020 2:53:08 PM: 
+5/17/2020 2:53:08 PM: 
+5/17/2020 2:53:08 PM: Results of period #6 (from 74 sec to 84 sec ):
+5/17/2020 2:53:08 PM: ****************************************************************
+5/17/2020 2:53:08 PM: Analyzed Time span of this period: 10,287 msec
+5/17/2020 2:53:08 PM: Sent/Received Requests: 19 / 16 (=15.79% not answered in this period)
+5/17/2020 2:53:08 PM: Completed Hits: 16 (including images, frames etc.)
+5/17/2020 2:53:08 PM: Completed Clicks: 16 with 0 Errors (=0.00%)
+5/17/2020 2:53:08 PM: 
+5/17/2020 2:53:08 PM: Results for Images for this period:
+5/17/2020 2:53:08 PM: Image Hits: 0 with 0 Errors
+5/17/2020 2:53:08 PM: 
+5/17/2020 2:53:08 PM: Spectrum of Click Times
+5/17/2020 2:53:08 PM: 0.00% of All Users waited <100ms
+5/17/2020 2:53:08 PM: 0.00% of All Users waited <200ms
+5/17/2020 2:53:08 PM: 37.50% of All Users waited <500ms
+5/17/2020 2:53:08 PM: 50.00% of All Users waited <1s
+5/17/2020 2:53:08 PM: 12.50% of All Users waited <2s
+5/17/2020 2:53:08 PM: 0.00% of All Users waited <5s
+5/17/2020 2:53:08 PM: 0.00% of All Users waited <10s
+5/17/2020 2:53:08 PM: 0.00% of All Users waited <20s
+5/17/2020 2:53:08 PM: 0.00% of All Users waited <50s
+5/17/2020 2:53:08 PM: 0.00% of All Users waited <100s
+5/17/2020 2:53:08 PM: 
+5/17/2020 2:53:08 PM: Measured Times:
+5/17/2020 2:53:08 PM: Average Time to Create Local Socket for 20 Users: 2 ms 
+5/17/2020 2:53:08 PM: Average DNS Time for 20 Users: 122 ms 
+5/17/2020 2:53:08 PM: Average Time to Connect for 20 Users: 123 ms 
+5/17/2020 2:53:08 PM: Average Time to First Byte for 20 Users: 549 ms 
+5/17/2020 2:53:08 PM: Average Click Time for 20 Users: 749 ms 
+5/17/2020 2:53:08 PM: 
+5/17/2020 2:53:08 PM: Hits per Second: 1.56 (equals 5,599.41 Hits per Hour)
+5/17/2020 2:53:08 PM: Successful clicks per Second: 1.56 (equals 5,599.41 Clicks per Hour)
+5/17/2020 2:53:08 PM: 
+5/17/2020 2:53:08 PM: Results per URL for this Period:
+5/17/2020 2:53:08 PM: URL#1 (): Average Click Time 426 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: URL#2 (): Average Click Time 833 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: URL#3 (): Average Click Time 841 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: URL#4 (): Average Click Time 425 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: URL#5 (): Average Click Time 426 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: URL#6 (): Average Click Time 857 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: URL#7 (): Average Click Time 1,253 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: URL#8 (): Average Click Time 864 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: URL#9 (): 0 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: URL#10 (): 0 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: URL#11 (): Average Click Time 938 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: URL#12 (): Average Click Time 833 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: URL#13 (): Average Click Time 1,276 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: URL#14 (): 0 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: URL#15 (): Average Click Time 872 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: URL#16 (): Average Click Time 427 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: URL#17 (): Average Click Time 425 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: URL#18 (): Average Click Time 432 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: URL#19 (): 0 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: URL#20 (): Average Click Time 859 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:08 PM: Average Click Time of all URLs: 749 ms 
+5/17/2020 2:53:08 PM: 
+5/17/2020 2:53:08 PM: Resulting page statuscodes for this period:
+5/17/2020 2:53:08 PM: 16x "200" (=OK)
+5/17/2020 2:53:08 PM: 
+5/17/2020 2:53:08 PM: Datavolume and Bandwidth for this period:
+5/17/2020 2:53:08 PM: Average User Bandwidth: 74.62 kbit/s 
+5/17/2020 2:53:08 PM: Total Bytes: 89,544 Bytes (90 kByte) (Throughput ~70 kbit/sec)
+5/17/2020 2:53:08 PM: 
+5/17/2020 2:53:08 PM: 
+5/17/2020 2:53:18 PM: 
+5/17/2020 2:53:18 PM: 
+5/17/2020 2:53:18 PM: Results of period #7 (from 84 sec to 94 sec ):
+5/17/2020 2:53:18 PM: ****************************************************************
+5/17/2020 2:53:18 PM: Analyzed Time span of this period: 10,289 msec
+5/17/2020 2:53:18 PM: Sent/Received Requests: 18 / 19 (=-5.56% not answered in this period)
+5/17/2020 2:53:18 PM: Completed Hits: 19 (including images, frames etc.)
+5/17/2020 2:53:18 PM: Completed Clicks: 19 with 0 Errors (=0.00%)
+5/17/2020 2:53:18 PM: 
+5/17/2020 2:53:18 PM: Results for Images for this period:
+5/17/2020 2:53:18 PM: Image Hits: 0 with 0 Errors
+5/17/2020 2:53:18 PM: 
+5/17/2020 2:53:18 PM: Spectrum of Click Times
+5/17/2020 2:53:18 PM: 0.00% of All Users waited <100ms
+5/17/2020 2:53:18 PM: 0.00% of All Users waited <200ms
+5/17/2020 2:53:18 PM: 36.84% of All Users waited <500ms
+5/17/2020 2:53:18 PM: 47.37% of All Users waited <1s
+5/17/2020 2:53:18 PM: 15.79% of All Users waited <2s
+5/17/2020 2:53:18 PM: 0.00% of All Users waited <5s
+5/17/2020 2:53:18 PM: 0.00% of All Users waited <10s
+5/17/2020 2:53:18 PM: 0.00% of All Users waited <20s
+5/17/2020 2:53:18 PM: 0.00% of All Users waited <50s
+5/17/2020 2:53:18 PM: 0.00% of All Users waited <100s
+5/17/2020 2:53:18 PM: 
+5/17/2020 2:53:18 PM: Measured Times:
+5/17/2020 2:53:18 PM: Average Time to Create Local Socket for 20 Users: 2 ms 
+5/17/2020 2:53:18 PM: Average DNS Time for 20 Users: 135 ms 
+5/17/2020 2:53:18 PM: Average Time to Connect for 20 Users: 136 ms 
+5/17/2020 2:53:18 PM: Average Time to First Byte for 20 Users: 550 ms 
+5/17/2020 2:53:18 PM: Average Click Time for 20 Users: 761 ms 
+5/17/2020 2:53:19 PM: 
+5/17/2020 2:53:19 PM: Hits per Second: 1.85 (equals 6,648.06 Hits per Hour)
+5/17/2020 2:53:19 PM: Successful clicks per Second: 1.85 (equals 6,648.06 Clicks per Hour)
+5/17/2020 2:53:19 PM: 
+5/17/2020 2:53:19 PM: Results per URL for this Period:
+5/17/2020 2:53:19 PM: URL#1 (): Average Click Time 429 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: URL#2 (): Average Click Time 836 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: URL#3 (): Average Click Time 838 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: URL#4 (): Average Click Time 435 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: URL#5 (): Average Click Time 429 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: URL#6 (): Average Click Time 858 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: URL#7 (): 0 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: URL#8 (): Average Click Time 851 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: URL#9 (): Average Click Time 1,258 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: URL#10 (): Average Click Time 1,263 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: URL#11 (): Average Click Time 843 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: URL#12 (): Average Click Time 847 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: URL#13 (): Average Click Time 1,279 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: URL#14 (): Average Click Time 859 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: URL#15 (): Average Click Time 855 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: URL#16 (): Average Click Time 423 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: URL#17 (): Average Click Time 433 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: URL#18 (): Average Click Time 429 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: URL#19 (): Average Click Time 428 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: URL#20 (): Average Click Time 862 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:19 PM: Average Click Time of all URLs: 761 ms 
+5/17/2020 2:53:19 PM: 
+5/17/2020 2:53:19 PM: Resulting page statuscodes for this period:
+5/17/2020 2:53:19 PM: 19x "200" (=OK)
+5/17/2020 2:53:19 PM: 
+5/17/2020 2:53:19 PM: Datavolume and Bandwidth for this period:
+5/17/2020 2:53:19 PM: Average User Bandwidth: 71.10 kbit/s 
+5/17/2020 2:53:19 PM: Total Bytes: 103,381 Bytes (103 kByte) (Throughput ~80 kbit/sec)
+5/17/2020 2:53:19 PM: 
+5/17/2020 2:53:19 PM: 
+5/17/2020 2:53:29 PM: 
+5/17/2020 2:53:29 PM: 
+5/17/2020 2:53:29 PM: Results of period #8 (from 94 sec to 104 sec ):
+5/17/2020 2:53:29 PM: ****************************************************************
+5/17/2020 2:53:29 PM: Analyzed Time span of this period: 10,329 msec
+5/17/2020 2:53:29 PM: Sent/Received Requests: 18 / 18 (=0.00% not answered in this period)
+5/17/2020 2:53:29 PM: Completed Hits: 18 (including images, frames etc.)
+5/17/2020 2:53:29 PM: Completed Clicks: 18 with 0 Errors (=0.00%)
+5/17/2020 2:53:29 PM: 
+5/17/2020 2:53:29 PM: Results for Images for this period:
+5/17/2020 2:53:29 PM: Image Hits: 0 with 0 Errors
+5/17/2020 2:53:29 PM: 
+5/17/2020 2:53:29 PM: Spectrum of Click Times
+5/17/2020 2:53:29 PM: 0.00% of All Users waited <100ms
+5/17/2020 2:53:29 PM: 0.00% of All Users waited <200ms
+5/17/2020 2:53:29 PM: 38.89% of All Users waited <500ms
+5/17/2020 2:53:29 PM: 38.89% of All Users waited <1s
+5/17/2020 2:53:29 PM: 22.22% of All Users waited <2s
+5/17/2020 2:53:29 PM: 0.00% of All Users waited <5s
+5/17/2020 2:53:29 PM: 0.00% of All Users waited <10s
+5/17/2020 2:53:29 PM: 0.00% of All Users waited <20s
+5/17/2020 2:53:29 PM: 0.00% of All Users waited <50s
+5/17/2020 2:53:29 PM: 0.00% of All Users waited <100s
+5/17/2020 2:53:29 PM: 
+5/17/2020 2:53:29 PM: Measured Times:
+5/17/2020 2:53:29 PM: Average Time to Create Local Socket for 20 Users: 3 ms 
+5/17/2020 2:53:29 PM: Average DNS Time for 20 Users: 152 ms 
+5/17/2020 2:53:29 PM: Average Time to Connect for 20 Users: 153 ms 
+5/17/2020 2:53:29 PM: Average Time to First Byte for 20 Users: 563 ms 
+5/17/2020 2:53:29 PM: Average Click Time for 20 Users: 780 ms 
+5/17/2020 2:53:29 PM: 
+5/17/2020 2:53:29 PM: Hits per Second: 1.74 (equals 6,273.60 Hits per Hour)
+5/17/2020 2:53:29 PM: Successful clicks per Second: 1.74 (equals 6,273.60 Clicks per Hour)
+5/17/2020 2:53:29 PM: 
+5/17/2020 2:53:29 PM: Results per URL for this Period:
+5/17/2020 2:53:29 PM: URL#1 (): Average Click Time 433 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: URL#2 (): Average Click Time 837 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: URL#3 (): Average Click Time 837 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: URL#4 (): Average Click Time 435 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: URL#5 (): Average Click Time 431 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: URL#6 (): Average Click Time 878 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: URL#7 (): Average Click Time 1,255 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: URL#8 (): Average Click Time 870 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: URL#9 (): Average Click Time 1,251 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: URL#10 (): Average Click Time 1,260 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: URL#11 (): 0 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: URL#12 (): 0 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: URL#13 (): Average Click Time 1,247 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: URL#14 (): Average Click Time 850 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: URL#15 (): Average Click Time 852 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: URL#16 (): Average Click Time 443 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: URL#17 (): Average Click Time 438 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: URL#18 (): Average Click Time 439 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: URL#19 (): Average Click Time 433 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: URL#20 (): Average Click Time 857 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:29 PM: Average Click Time of all URLs: 780 ms 
+5/17/2020 2:53:29 PM: 
+5/17/2020 2:53:29 PM: Resulting page statuscodes for this period:
+5/17/2020 2:53:29 PM: 18x "200" (=OK)
+5/17/2020 2:53:29 PM: 
+5/17/2020 2:53:29 PM: Datavolume and Bandwidth for this period:
+5/17/2020 2:53:29 PM: Average User Bandwidth: 70.76 kbit/s 
+5/17/2020 2:53:29 PM: Total Bytes: 98,400 Bytes (98 kByte) (Throughput ~76 kbit/sec)
+5/17/2020 2:53:29 PM: 
+5/17/2020 2:53:29 PM: 
+5/17/2020 2:53:39 PM: 
+5/17/2020 2:53:39 PM: 
+5/17/2020 2:53:39 PM: Results of period #9 (from 104 sec to 115 sec ):
+5/17/2020 2:53:39 PM: ****************************************************************
+5/17/2020 2:53:39 PM: Analyzed Time span of this period: 10,303 msec
+5/17/2020 2:53:39 PM: Sent/Received Requests: 18 / 19 (=-5.56% not answered in this period)
+5/17/2020 2:53:39 PM: Completed Hits: 19 (including images, frames etc.)
+5/17/2020 2:53:39 PM: Completed Clicks: 19 with 0 Errors (=0.00%)
+5/17/2020 2:53:39 PM: 
+5/17/2020 2:53:39 PM: Results for Images for this period:
+5/17/2020 2:53:39 PM: Image Hits: 0 with 0 Errors
+5/17/2020 2:53:39 PM: 
+5/17/2020 2:53:39 PM: Spectrum of Click Times
+5/17/2020 2:53:39 PM: 0.00% of All Users waited <100ms
+5/17/2020 2:53:39 PM: 0.00% of All Users waited <200ms
+5/17/2020 2:53:39 PM: 31.58% of All Users waited <500ms
+5/17/2020 2:53:39 PM: 47.37% of All Users waited <1s
+5/17/2020 2:53:39 PM: 21.05% of All Users waited <2s
+5/17/2020 2:53:39 PM: 0.00% of All Users waited <5s
+5/17/2020 2:53:39 PM: 0.00% of All Users waited <10s
+5/17/2020 2:53:39 PM: 0.00% of All Users waited <20s
+5/17/2020 2:53:39 PM: 0.00% of All Users waited <50s
+5/17/2020 2:53:39 PM: 0.00% of All Users waited <100s
+5/17/2020 2:53:39 PM: 
+5/17/2020 2:53:39 PM: Measured Times:
+5/17/2020 2:53:39 PM: Average Time to Create Local Socket for 20 Users: 3 ms 
+5/17/2020 2:53:39 PM: Average DNS Time for 20 Users: 158 ms 
+5/17/2020 2:53:39 PM: Average Time to Connect for 20 Users: 166 ms 
+5/17/2020 2:53:39 PM: Average Time to First Byte for 20 Users: 581 ms 
+5/17/2020 2:53:39 PM: Average Click Time for 20 Users: 811 ms 
+5/17/2020 2:53:39 PM: 
+5/17/2020 2:53:39 PM: Hits per Second: 1.84 (equals 6,638.67 Hits per Hour)
+5/17/2020 2:53:39 PM: Successful clicks per Second: 1.84 (equals 6,638.67 Clicks per Hour)
+5/17/2020 2:53:39 PM: 
+5/17/2020 2:53:39 PM: Results per URL for this Period:
+5/17/2020 2:53:39 PM: URL#1 (): Average Click Time 435 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: URL#2 (): Average Click Time 842 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: URL#3 (): Average Click Time 838 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: URL#4 (): Average Click Time 432 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: URL#5 (): Average Click Time 428 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: URL#6 (): Average Click Time 851 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: URL#7 (): Average Click Time 1,275 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: URL#8 (): Average Click Time 864 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: URL#9 (): Average Click Time 1,278 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: URL#10 (): Average Click Time 1,270 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: URL#11 (): Average Click Time 891 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: URL#12 (): Average Click Time 835 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: URL#13 (): Average Click Time 1,265 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: URL#14 (): Average Click Time 879 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: URL#15 (): Average Click Time 866 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: URL#16 (): Average Click Time 429 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: URL#17 (): Average Click Time 432 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: URL#18 (): 0 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: URL#19 (): Average Click Time 436 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: URL#20 (): Average Click Time 862 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:39 PM: Average Click Time of all URLs: 811 ms 
+5/17/2020 2:53:39 PM: 
+5/17/2020 2:53:39 PM: Resulting page statuscodes for this period:
+5/17/2020 2:53:39 PM: 19x "200" (=OK)
+5/17/2020 2:53:39 PM: 
+5/17/2020 2:53:39 PM: Datavolume and Bandwidth for this period:
+5/17/2020 2:53:39 PM: Average User Bandwidth: 64.18 kbit/s 
+5/17/2020 2:53:39 PM: Total Bytes: 99,976 Bytes (100 kByte) (Throughput ~78 kbit/sec)
+5/17/2020 2:53:39 PM: 
+5/17/2020 2:53:39 PM: 
+5/17/2020 2:53:49 PM: 
+5/17/2020 2:53:49 PM: 
+5/17/2020 2:53:49 PM: Results of period #10 (from 115 sec to 125 sec ):
+5/17/2020 2:53:49 PM: ****************************************************************
+5/17/2020 2:53:49 PM: Analyzed Time span of this period: 10,292 msec
+5/17/2020 2:53:49 PM: Sent/Received Requests: 18 / 20 (=-11.11% not answered in this period)
+5/17/2020 2:53:49 PM: Completed Hits: 20 (including images, frames etc.)
+5/17/2020 2:53:49 PM: Completed Clicks: 20 with 0 Errors (=0.00%)
+5/17/2020 2:53:49 PM: 
+5/17/2020 2:53:49 PM: Results for Images for this period:
+5/17/2020 2:53:49 PM: Image Hits: 0 with 0 Errors
+5/17/2020 2:53:49 PM: 
+5/17/2020 2:53:49 PM: Spectrum of Click Times
+5/17/2020 2:53:49 PM: 0.00% of All Users waited <100ms
+5/17/2020 2:53:49 PM: 0.00% of All Users waited <200ms
+5/17/2020 2:53:49 PM: 35.00% of All Users waited <500ms
+5/17/2020 2:53:49 PM: 45.00% of All Users waited <1s
+5/17/2020 2:53:49 PM: 20.00% of All Users waited <2s
+5/17/2020 2:53:49 PM: 0.00% of All Users waited <5s
+5/17/2020 2:53:49 PM: 0.00% of All Users waited <10s
+5/17/2020 2:53:49 PM: 0.00% of All Users waited <20s
+5/17/2020 2:53:49 PM: 0.00% of All Users waited <50s
+5/17/2020 2:53:49 PM: 0.00% of All Users waited <100s
+5/17/2020 2:53:49 PM: 
+5/17/2020 2:53:49 PM: Measured Times:
+5/17/2020 2:53:49 PM: Average Time to Create Local Socket for 20 Users: 2 ms 
+5/17/2020 2:53:49 PM: Average DNS Time for 20 Users: 153 ms 
+5/17/2020 2:53:49 PM: Average Time to Connect for 20 Users: 156 ms 
+5/17/2020 2:53:49 PM: Average Time to First Byte for 20 Users: 568 ms 
+5/17/2020 2:53:49 PM: Average Click Time for 20 Users: 785 ms 
+5/17/2020 2:53:49 PM: 
+5/17/2020 2:53:49 PM: Hits per Second: 1.94 (equals 6,995.46 Hits per Hour)
+5/17/2020 2:53:49 PM: Successful clicks per Second: 1.94 (equals 6,995.46 Clicks per Hour)
+5/17/2020 2:53:49 PM: 
+5/17/2020 2:53:49 PM: Results per URL for this Period:
+5/17/2020 2:53:49 PM: URL#1 (): Average Click Time 434 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: URL#2 (): Average Click Time 840 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: URL#3 (): Average Click Time 842 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: URL#4 (): Average Click Time 430 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: URL#5 (): Average Click Time 431 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: URL#6 (): Average Click Time 855 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: URL#7 (): Average Click Time 1,252 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: URL#8 (): Average Click Time 862 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: URL#9 (): Average Click Time 1,253 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: URL#10 (): Average Click Time 1,254 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: URL#11 (): Average Click Time 850 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: URL#12 (): Average Click Time 839 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: URL#13 (): Average Click Time 1,259 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: URL#14 (): Average Click Time 855 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: URL#15 (): Average Click Time 850 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: URL#16 (): Average Click Time 433 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: URL#17 (): Average Click Time 435 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: URL#18 (): Average Click Time 437 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: URL#19 (): Average Click Time 434 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: URL#20 (): Average Click Time 849 ms, 1 Clicks, 0 Errors, 
+5/17/2020 2:53:49 PM: Average Click Time of all URLs: 785 ms 
+5/17/2020 2:53:49 PM: 
+5/17/2020 2:53:49 PM: Resulting page statuscodes for this period:
+5/17/2020 2:53:49 PM: 20x "200" (=OK)
+5/17/2020 2:53:49 PM: 
+5/17/2020 2:53:49 PM: Datavolume and Bandwidth for this period:
+5/17/2020 2:53:49 PM: Average User Bandwidth: 68.64 kbit/s 
+5/17/2020 2:53:49 PM: Total Bytes: 108,142 Bytes (108 kByte) (Throughput ~84 kbit/sec)
+5/17/2020 2:53:49 PM: 
+5/17/2020 2:53:49 PM: 
+5/17/2020 2:53:56 PM: 
+5/17/2020 2:53:56 PM: 
+5/17/2020 2:53:56 PM: *******************************************************************
+5/17/2020 2:53:56 PM: Test Done, now waiting for simulated users to stop surfing 
+5/17/2020 2:53:56 PM: *******************************************************************
+5/17/2020 2:53:56 PM: Waiting for 5 seconds for users to cool down and stop surfing...
+5/17/2020 2:53:57 PM: All surfers passed away...
+5/17/2020 2:53:57 PM: Master Controller is halted
+5/17/2020 2:53:57 PM: 
+5/17/2020 2:53:57 PM: 
+5/17/2020 2:53:57 PM: 
+5/17/2020 2:53:57 PM: Results of complete test
+5/17/2020 2:53:57 PM: ****************************************************************
+5/17/2020 2:53:57 PM: 
+5/17/2020 2:53:57 PM: 
+5/17/2020 2:53:57 PM: ** Results per User for complete test **
+5/17/2020 2:53:57 PM: 
+5/17/2020 2:53:57 PM: User #1: Avg. Click Time: 429.92 ms, 10 Clicks, 10 Hits, 0 Errors, 81,660 Bytes, 151.95 kbit/s
+5/17/2020 2:53:57 PM: User #2: Avg. Click Time: 838.12 ms, 10 Clicks, 10 Hits, 0 Errors, 49,830 Bytes, 47.56 kbit/s
+5/17/2020 2:53:57 PM: User #3: Avg. Click Time: 837.02 ms, 10 Clicks, 10 Hits, 0 Errors, 49,830 Bytes, 47.63 kbit/s
+5/17/2020 2:53:57 PM: User #4: Avg. Click Time: 439.88 ms, 10 Clicks, 10 Hits, 0 Errors, 43,370 Bytes, 78.88 kbit/s
+5/17/2020 2:53:57 PM: User #5: Avg. Click Time: 429.25 ms, 10 Clicks, 10 Hits, 0 Errors, 43,370 Bytes, 80.83 kbit/s
+5/17/2020 2:53:57 PM: User #6: Avg. Click Time: 863.60 ms, 10 Clicks, 10 Hits, 0 Errors, 47,390 Bytes, 43.90 kbit/s
+5/17/2020 2:53:57 PM: User #7: Avg. Click Time: 1,264.84 ms, 10 Clicks, 10 Hits, 0 Errors, 47,610 Bytes, 30.11 kbit/s
+5/17/2020 2:53:57 PM: User #8: Avg. Click Time: 873.32 ms, 10 Clicks, 10 Hits, 0 Errors, 47,390 Bytes, 43.41 kbit/s
+5/17/2020 2:53:57 PM: User #9: Avg. Click Time: 1,263.65 ms, 10 Clicks, 10 Hits, 0 Errors, 47,610 Bytes, 30.14 kbit/s
+5/17/2020 2:53:57 PM: User #10: Avg. Click Time: 1,260.08 ms, 10 Clicks, 10 Hits, 0 Errors, 47,610 Bytes, 30.23 kbit/s
+5/17/2020 2:53:57 PM: User #11: Avg. Click Time: 870.12 ms, 10 Clicks, 10 Hits, 0 Errors, 47,590 Bytes, 43.76 kbit/s
+5/17/2020 2:53:57 PM: User #12: Avg. Click Time: 837.55 ms, 10 Clicks, 10 Hits, 0 Errors, 49,830 Bytes, 47.60 kbit/s
+5/17/2020 2:53:57 PM: User #13: Avg. Click Time: 1,264.10 ms, 10 Clicks, 10 Hits, 0 Errors, 47,610 Bytes, 30.13 kbit/s
+5/17/2020 2:53:57 PM: User #14: Avg. Click Time: 858.74 ms, 10 Clicks, 10 Hits, 0 Errors, 47,390 Bytes, 44.15 kbit/s
+5/17/2020 2:53:57 PM: User #15: Avg. Click Time: 854.45 ms, 10 Clicks, 10 Hits, 0 Errors, 47,590 Bytes, 44.56 kbit/s
+5/17/2020 2:53:57 PM: User #16: Avg. Click Time: 428.85 ms, 10 Clicks, 10 Hits, 0 Errors, 81,660 Bytes, 152.33 kbit/s
+5/17/2020 2:53:57 PM: User #17: Avg. Click Time: 430.34 ms, 10 Clicks, 10 Hits, 0 Errors, 81,660 Bytes, 151.81 kbit/s
+5/17/2020 2:53:57 PM: User #18: Avg. Click Time: 432.05 ms, 10 Clicks, 10 Hits, 0 Errors, 81,660 Bytes, 151.21 kbit/s
+5/17/2020 2:53:57 PM: User #19: Avg. Click Time: 432.53 ms, 10 Clicks, 10 Hits, 0 Errors, 43,370 Bytes, 80.22 kbit/s
+5/17/2020 2:53:57 PM: User #20: Avg. Click Time: 859.29 ms, 10 Clicks, 10 Hits, 0 Errors, 47,390 Bytes, 44.12 kbit/s
+5/17/2020 2:53:57 PM: 
+5/17/2020 2:53:57 PM: ** Results per URL for complete test **
+5/17/2020 2:53:57 PM: 
+5/17/2020 2:53:57 PM: URL#1 (): Average Click Time 430 ms, 10 Clicks, 0 Errors 
+5/17/2020 2:53:57 PM: URL#2 (): Average Click Time 838 ms, 10 Clicks, 0 Errors 
+5/17/2020 2:53:57 PM: URL#3 (): Average Click Time 837 ms, 10 Clicks, 0 Errors 
+5/17/2020 2:53:57 PM: URL#4 (): Average Click Time 440 ms, 10 Clicks, 0 Errors 
+5/17/2020 2:53:57 PM: URL#5 (): Average Click Time 429 ms, 10 Clicks, 0 Errors 
+5/17/2020 2:53:57 PM: URL#6 (): Average Click Time 864 ms, 10 Clicks, 0 Errors 
+5/17/2020 2:53:57 PM: URL#7 (): Average Click Time 1,266 ms, 9 Clicks, 0 Errors 
+5/17/2020 2:53:57 PM: URL#8 (): Average Click Time 873 ms, 10 Clicks, 0 Errors 
+5/17/2020 2:53:57 PM: URL#9 (): Average Click Time 1,264 ms, 9 Clicks, 0 Errors 
+5/17/2020 2:53:57 PM: URL#10 (): Average Click Time 1,260 ms, 9 Clicks, 0 Errors 
+5/17/2020 2:53:57 PM: URL#11 (): Average Click Time 872 ms, 9 Clicks, 0 Errors 
+5/17/2020 2:53:57 PM: URL#12 (): Average Click Time 837 ms, 9 Clicks, 0 Errors 
+5/17/2020 2:53:57 PM: URL#13 (): Average Click Time 1,265 ms, 9 Clicks, 0 Errors 
+5/17/2020 2:53:57 PM: URL#14 (): Average Click Time 860 ms, 9 Clicks, 0 Errors 
+5/17/2020 2:53:57 PM: URL#15 (): Average Click Time 855 ms, 9 Clicks, 0 Errors 
+5/17/2020 2:53:58 PM: URL#16 (): Average Click Time 429 ms, 10 Clicks, 0 Errors 
+5/17/2020 2:53:58 PM: URL#17 (): Average Click Time 430 ms, 10 Clicks, 0 Errors 
+5/17/2020 2:53:58 PM: URL#18 (): Average Click Time 432 ms, 9 Clicks, 0 Errors 
+5/17/2020 2:53:58 PM: URL#19 (): Average Click Time 432 ms, 9 Clicks, 0 Errors 
+5/17/2020 2:53:58 PM: URL#20 (): Average Click Time 859 ms, 9 Clicks, 0 Errors 
+5/17/2020 2:53:58 PM: 
+5/17/2020 2:53:58 PM: Total Number of Clicks: 189 (0 Errors)
+5/17/2020 2:53:58 PM: Average Click Time of all URLs: 781 ms 
+5/17/2020 2:53:58 PM: 
+5/17/2020 2:53:58 PM: 
+5/17/2020 2:53:58 PM: !! Glossary:
+5/17/2020 2:53:58 PM: !! Click: A simulated mouse click of a user sending a request (one of the URLs from the URL list) to the server and immediately requesting any necessary redirects, frames and images (if enabled).
+5/17/2020 2:53:58 PM: !! Request: A HTTP request sent to the server regardless of an answer.
+5/17/2020 2:53:58 PM: !! Hit: A completed HTTP request (i.e. sent to the server and answered completely). Hits can be the PAGE request of a "click" or its frames, images etc.
+5/17/2020 2:53:58 PM: !! Time for DNS: Time to resolve a URL's domain name using the client system's current DNS server.
+5/17/2020 2:53:58 PM: !! Time to connect: Time to set up a connection to the server.
+5/17/2020 2:53:58 PM: !! Time to first byte (TFB): Time between initiating a request and receiving the first byte of data from the server.
+5/17/2020 2:53:58 PM: !! Click Time: The time a user had to wait until his "click" was finished (including redirections/frames/images etc.).
+5/17/2020 2:53:58 PM: !! User Bandwidth: The bandwidth a user was able to achieve.
+5/17/2020 2:53:58 PM: !! Sent Requests: Number of requests sent to the server during a period.
+5/17/2020 2:53:58 PM: !! Received Requests: Number of answers received from the server during a period.
+5/17/2020 2:53:58 PM: 
+5/17/2020 2:53:58 PM: 
+5/17/2020 2:53:58 PM: Saving summary log to "C:\Program Files (x86)\Webserver Stress Tool 8\logs\Summary Log.txt"
+5/17/2020 2:53:58 PM: Saving detailed log to "C:\Program Files (x86)\Webserver Stress Tool 8\logs\Detailed Log.txt"
+5/17/2020 2:53:58 PM: Saving Chart Data: Spectrum of Click Times-.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Server and User Bandwidth-Server Bandwidth _kbit_s_.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Server and User Bandwidth-Avg_ User Bandwidth _kbit_s_.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Server and User Bandwidth-.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Hierarchy and Times of All Hits-Pages.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Hierarchy and Times of All Hits-Images.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Hierarchy and Times of All Hits-Frames.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Hierarchy and Times of All Hits-Errors.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Hierarchy and Times of All Hits-.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Req-Times_ All Images.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ .csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Times and Errors _per URL_-Errors_ All Images.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Time_ Hits_s_ Users_s _all URLs_-Click Time _ms_.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Time_ Hits_s_ Users_s _all URLs_-Clicks per Second.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Time_ Hits_s_ Users_s _all URLs_-Hits per Second.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Click Time_ Hits_s_ Users_s _all URLs_-.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Open Requests _ Transferred Data-Open Requests.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Open Requests _ Transferred Data-Sent Requests per second.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Open Requests _ Transferred Data-Received Requests per second.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Open Requests _ Transferred Data-Network Traffic _kbit_s_.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Open Requests _ Transferred Data-.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Protocol Times for all URLs-Click Time.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Protocol Times for all URLs-Time to First Byte.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Protocol Times for all URLs-Time to Connect.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Protocol Times for all URLs-Time for DNS.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Protocol Times for all URLs-Time for local socket.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Protocol Times for all URLs-.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Transferred Data _ System Memory _ CPU Load-System Memory _MB_.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Transferred Data _ System Memory _ CPU Load-Network Traffic _kbit_s_.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Transferred Data _ System Memory _ CPU Load-Local CPU Load ___.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Transferred Data _ System Memory _ CPU Load-.csv
+5/17/2020 2:53:58 PM: Saving Chart Data: Transferred Data _ System Memory _ CPU Load-Local CPU Load ___.csv

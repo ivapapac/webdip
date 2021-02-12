@@ -1,0 +1,133 @@
+Webserver Stress Tool - Logfile for User #12
+5/17/2020 2:52:07 PM: User #12 Click #1: Waiting for global click delay: 10s
+5/17/2020 2:52:12 PM: User #12 Click #1: HTTP request & TCP/IP socket creation: 3 ms
+5/17/2020 2:52:12 PM: User #12 Click #1: ** Click #1 started, used URL #12 (), from IP=0.0.0.0
+5/17/2020 2:52:12 PM: User #12 Click #1: Request 1 HTTP State: Initialized (0 ms)
+5/17/2020 2:52:12 PM: User #12 Click #1: Request 1 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:52:12 PM: User #12 Click #1: Request 1 HTTP State: DNS Lookup done (1 ms)
+5/17/2020 2:52:12 PM: User #12 Click #1: Request 1 HTTP State: Connected (2 ms)
+5/17/2020 2:52:12 PM: User #12 Click #1: Request 1 HTTP State: Waiting for header (2 ms)
+5/17/2020 2:52:13 PM: User #12 Click #1: Request 1 HTTP State: Receiving Header (824 ms) (=Time to First Byte)
+5/17/2020 2:52:13 PM: User #12 Click #1: Request 1 HTTP State: Waiting for body (824 ms)
+5/17/2020 2:52:13 PM: User #12 Click #1: Request 1 HTTP State: Done (824 ms)
+5/17/2020 2:52:13 PM: User #12 Click #1: CLICK-Request 1: Time=835 ms, TFB=824 ms, Bytes=4,983, HTTP-StatusCode=200 (OK)
+5/17/2020 2:52:13 PM: User #12 Click #1: !Success! All requests of click done (837 ms)  
+5/17/2020 2:52:13 PM: User #12 Click #2: Waiting for global click delay: 10s
+5/17/2020 2:52:23 PM: User #12 Click #2: HTTP request & TCP/IP socket creation: 2 ms
+5/17/2020 2:52:23 PM: User #12 Click #2: ** Click #2 started, used URL #12 (), from IP=0.0.0.0
+5/17/2020 2:52:23 PM: User #12 Click #2: Request 2 HTTP State: Initialized (0 ms)
+5/17/2020 2:52:23 PM: User #12 Click #2: Request 2 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:52:23 PM: User #12 Click #2: Request 2 HTTP State: DNS Lookup done (0 ms)
+5/17/2020 2:52:23 PM: User #12 Click #2: Request 2 HTTP State: Connected (1 ms)
+5/17/2020 2:52:23 PM: User #12 Click #2: Request 2 HTTP State: Waiting for header (1 ms)
+5/17/2020 2:52:24 PM: User #12 Click #2: Request 2 HTTP State: Receiving Header (827 ms) (=Time to First Byte)
+5/17/2020 2:52:24 PM: User #12 Click #2: Request 2 HTTP State: Waiting for body (835 ms)
+5/17/2020 2:52:24 PM: User #12 Click #2: Request 2 HTTP State: Done (835 ms)
+5/17/2020 2:52:24 PM: User #12 Click #2: CLICK-Request 2: Time=835 ms, TFB=827 ms, Bytes=4,983, HTTP-StatusCode=200 (OK)
+5/17/2020 2:52:24 PM: User #12 Click #2: !Success! All requests of click done (835 ms)  
+5/17/2020 2:52:24 PM: User #12 Click #3: Waiting for global click delay: 10s
+5/17/2020 2:52:34 PM: User #12 Click #3: HTTP request & TCP/IP socket creation: 2 ms
+5/17/2020 2:52:34 PM: User #12 Click #3: ** Click #3 started, used URL #12 (), from IP=0.0.0.0
+5/17/2020 2:52:34 PM: User #12 Click #3: Request 3 HTTP State: Initialized (0 ms)
+5/17/2020 2:52:34 PM: User #12 Click #3: Request 3 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:52:34 PM: User #12 Click #3: Request 3 HTTP State: DNS Lookup done (0 ms)
+5/17/2020 2:52:34 PM: User #12 Click #3: Request 3 HTTP State: Connected (1 ms)
+5/17/2020 2:52:34 PM: User #12 Click #3: Request 3 HTTP State: Waiting for header (16 ms)
+5/17/2020 2:52:35 PM: User #12 Click #3: Request 3 HTTP State: Receiving Header (837 ms) (=Time to First Byte)
+5/17/2020 2:52:35 PM: User #12 Click #3: Request 3 HTTP State: Waiting for body (837 ms)
+5/17/2020 2:52:35 PM: User #12 Click #3: Request 3 HTTP State: Done (837 ms)
+5/17/2020 2:52:35 PM: User #12 Click #3: CLICK-Request 3: Time=837 ms, TFB=837 ms, Bytes=4,983, HTTP-StatusCode=200 (OK)
+5/17/2020 2:52:35 PM: User #12 Click #3: !Success! All requests of click done (838 ms)  
+5/17/2020 2:52:35 PM: User #12 Click #4: Waiting for global click delay: 10s
+5/17/2020 2:52:45 PM: User #12 Click #4: HTTP request & TCP/IP socket creation: 3 ms
+5/17/2020 2:52:45 PM: User #12 Click #4: ** Click #4 started, used URL #12 (), from IP=0.0.0.0
+5/17/2020 2:52:45 PM: User #12 Click #4: Request 4 HTTP State: Initialized (0 ms)
+5/17/2020 2:52:45 PM: User #12 Click #4: Request 4 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:52:45 PM: User #12 Click #4: Request 4 HTTP State: DNS Lookup done (12 ms)
+5/17/2020 2:52:45 PM: User #12 Click #4: Request 4 HTTP State: Connected (14 ms)
+5/17/2020 2:52:45 PM: User #12 Click #4: Request 4 HTTP State: Waiting for header (14 ms)
+5/17/2020 2:52:46 PM: User #12 Click #4: Request 4 HTTP State: Receiving Header (848 ms) (=Time to First Byte)
+5/17/2020 2:52:46 PM: User #12 Click #4: Request 4 HTTP State: Waiting for body (848 ms)
+5/17/2020 2:52:46 PM: User #12 Click #4: Request 4 HTTP State: Done (848 ms)
+5/17/2020 2:52:46 PM: User #12 Click #4: CLICK-Request 4: Time=848 ms, TFB=848 ms, Bytes=4,983, HTTP-StatusCode=200 (OK)
+5/17/2020 2:52:46 PM: User #12 Click #4: !Success! All requests of click done (848 ms)  
+5/17/2020 2:52:46 PM: User #12 Click #5: Waiting for global click delay: 10s
+5/17/2020 2:52:56 PM: User #12 Click #5: HTTP request & TCP/IP socket creation: 2 ms
+5/17/2020 2:52:56 PM: User #12 Click #5: ** Click #5 started, used URL #12 (), from IP=0.0.0.0
+5/17/2020 2:52:56 PM: User #12 Click #5: Request 5 HTTP State: Initialized (0 ms)
+5/17/2020 2:52:56 PM: User #12 Click #5: Request 5 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:52:56 PM: User #12 Click #5: Request 5 HTTP State: DNS Lookup done (0 ms)
+5/17/2020 2:52:56 PM: User #12 Click #5: Request 5 HTTP State: Connected (1 ms)
+5/17/2020 2:52:56 PM: User #12 Click #5: Request 5 HTTP State: Waiting for header (1 ms)
+5/17/2020 2:52:56 PM: User #12 Click #5: Request 5 HTTP State: Receiving Header (822 ms) (=Time to First Byte)
+5/17/2020 2:52:56 PM: User #12 Click #5: Request 5 HTTP State: Waiting for body (822 ms)
+5/17/2020 2:52:56 PM: User #12 Click #5: Request 5 HTTP State: Done (824 ms)
+5/17/2020 2:52:56 PM: User #12 Click #5: CLICK-Request 5: Time=824 ms, TFB=822 ms, Bytes=4,983, HTTP-StatusCode=200 (OK)
+5/17/2020 2:52:56 PM: User #12 Click #5: !Success! All requests of click done (825 ms)  
+5/17/2020 2:52:56 PM: User #12 Click #6: Waiting for global click delay: 10s
+5/17/2020 2:53:06 PM: User #12 Click #6: HTTP request & TCP/IP socket creation: 2 ms
+5/17/2020 2:53:06 PM: User #12 Click #6: ** Click #6 started, used URL #12 (), from IP=0.0.0.0
+5/17/2020 2:53:06 PM: User #12 Click #6: Request 6 HTTP State: Initialized (0 ms)
+5/17/2020 2:53:06 PM: User #12 Click #6: Request 6 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:53:06 PM: User #12 Click #6: Request 6 HTTP State: DNS Lookup done (0 ms)
+5/17/2020 2:53:06 PM: User #12 Click #6: Request 6 HTTP State: Connected (1 ms)
+5/17/2020 2:53:06 PM: User #12 Click #6: Request 6 HTTP State: Waiting for header (1 ms)
+5/17/2020 2:53:07 PM: User #12 Click #6: Request 6 HTTP State: Receiving Header (822 ms) (=Time to First Byte)
+5/17/2020 2:53:07 PM: User #12 Click #6: Request 6 HTTP State: Waiting for body (823 ms)
+5/17/2020 2:53:07 PM: User #12 Click #6: Request 6 HTTP State: Done (823 ms)
+5/17/2020 2:53:07 PM: User #12 Click #6: CLICK-Request 6: Time=823 ms, TFB=822 ms, Bytes=4,983, HTTP-StatusCode=200 (OK)
+5/17/2020 2:53:07 PM: User #12 Click #6: !Success! All requests of click done (833 ms)  
+5/17/2020 2:53:07 PM: User #12 Click #7: Waiting for global click delay: 10s
+5/17/2020 2:53:17 PM: User #12 Click #7: HTTP request & TCP/IP socket creation: 2 ms
+5/17/2020 2:53:17 PM: User #12 Click #7: ** Click #7 started, used URL #12 (), from IP=0.0.0.0
+5/17/2020 2:53:17 PM: User #12 Click #7: Request 7 HTTP State: Initialized (0 ms)
+5/17/2020 2:53:17 PM: User #12 Click #7: Request 7 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:53:17 PM: User #12 Click #7: Request 7 HTTP State: DNS Lookup done (1 ms)
+5/17/2020 2:53:17 PM: User #12 Click #7: Request 7 HTTP State: Connected (2 ms)
+5/17/2020 2:53:17 PM: User #12 Click #7: Request 7 HTTP State: Waiting for header (2 ms)
+5/17/2020 2:53:18 PM: User #12 Click #7: Request 7 HTTP State: Receiving Header (828 ms) (=Time to First Byte)
+5/17/2020 2:53:18 PM: User #12 Click #7: Request 7 HTTP State: Waiting for body (828 ms)
+5/17/2020 2:53:18 PM: User #12 Click #7: Request 7 HTTP State: Done (847 ms)
+5/17/2020 2:53:18 PM: User #12 Click #7: CLICK-Request 7: Time=847 ms, TFB=828 ms, Bytes=4,983, HTTP-StatusCode=200 (OK)
+5/17/2020 2:53:18 PM: User #12 Click #7: !Success! All requests of click done (847 ms)  
+5/17/2020 2:53:18 PM: User #12 Click #8: Waiting for global click delay: 10s
+5/17/2020 2:53:28 PM: User #12 Click #8: HTTP request & TCP/IP socket creation: 5 ms
+5/17/2020 2:53:28 PM: User #12 Click #8: ** Click #8 started, used URL #12 (), from IP=0.0.0.0
+5/17/2020 2:53:28 PM: User #12 Click #8: Request 8 HTTP State: Initialized (0 ms)
+5/17/2020 2:53:28 PM: User #12 Click #8: Request 8 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:53:28 PM: User #12 Click #8: Request 8 HTTP State: DNS Lookup done (0 ms)
+5/17/2020 2:53:28 PM: User #12 Click #8: Request 8 HTTP State: Connected (1 ms)
+5/17/2020 2:53:28 PM: User #12 Click #8: Request 8 HTTP State: Waiting for header (1 ms)
+5/17/2020 2:53:29 PM: User #12 Click #8: Request 8 HTTP State: Receiving Header (835 ms) (=Time to First Byte)
+5/17/2020 2:53:29 PM: User #12 Click #8: Request 8 HTTP State: Waiting for body (835 ms)
+5/17/2020 2:53:29 PM: User #12 Click #8: Request 8 HTTP State: Done (835 ms)
+5/17/2020 2:53:29 PM: User #12 Click #8: CLICK-Request 8: Time=835 ms, TFB=835 ms, Bytes=4,983, HTTP-StatusCode=200 (OK)
+5/17/2020 2:53:29 PM: User #12 Click #8: !Success! All requests of click done (835 ms)  
+5/17/2020 2:53:29 PM: User #12 Click #9: Waiting for global click delay: 10s
+5/17/2020 2:53:39 PM: User #12 Click #9: HTTP request & TCP/IP socket creation: 2 ms
+5/17/2020 2:53:39 PM: User #12 Click #9: ** Click #9 started, used URL #12 (), from IP=0.0.0.0
+5/17/2020 2:53:39 PM: User #12 Click #9: Request 9 HTTP State: Initialized (0 ms)
+5/17/2020 2:53:39 PM: User #12 Click #9: Request 9 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:53:39 PM: User #12 Click #9: Request 9 HTTP State: DNS Lookup done (1 ms)
+5/17/2020 2:53:39 PM: User #12 Click #9: Request 9 HTTP State: Connected (13 ms)
+5/17/2020 2:53:39 PM: User #12 Click #9: Request 9 HTTP State: Waiting for header (13 ms)
+5/17/2020 2:53:40 PM: User #12 Click #9: Request 9 HTTP State: Receiving Header (837 ms) (=Time to First Byte)
+5/17/2020 2:53:40 PM: User #12 Click #9: Request 9 HTTP State: Waiting for body (837 ms)
+5/17/2020 2:53:40 PM: User #12 Click #9: Request 9 HTTP State: Done (839 ms)
+5/17/2020 2:53:40 PM: User #12 Click #9: CLICK-Request 9: Time=839 ms, TFB=837 ms, Bytes=4,983, HTTP-StatusCode=200 (OK)
+5/17/2020 2:53:40 PM: User #12 Click #9: !Success! All requests of click done (839 ms)  
+5/17/2020 2:53:40 PM: User #12 Click #10: Waiting for global click delay: 10s
+5/17/2020 2:53:50 PM: User #12 Click #10: HTTP request & TCP/IP socket creation: 2 ms
+5/17/2020 2:53:50 PM: User #12 Click #10: ** Click #10 started, used URL #12 (), from IP=0.0.0.0
+5/17/2020 2:53:50 PM: User #12 Click #10: Request 10 HTTP State: Initialized (0 ms)
+5/17/2020 2:53:50 PM: User #12 Click #10: Request 10 HTTP State: DNS Lookup begin (10 ms)
+5/17/2020 2:53:50 PM: User #12 Click #10: Request 10 HTTP State: DNS Lookup done (10 ms)
+5/17/2020 2:53:50 PM: User #12 Click #10: Request 10 HTTP State: Connected (11 ms)
+5/17/2020 2:53:50 PM: User #12 Click #10: Request 10 HTTP State: Waiting for header (11 ms)
+5/17/2020 2:53:51 PM: User #12 Click #10: Request 10 HTTP State: Receiving Header (838 ms) (=Time to First Byte)
+5/17/2020 2:53:51 PM: User #12 Click #10: Request 10 HTTP State: Waiting for body (838 ms)
+5/17/2020 2:53:51 PM: User #12 Click #10: Request 10 HTTP State: Done (838 ms)
+5/17/2020 2:53:51 PM: User #12 Click #10: CLICK-Request 10: Time=838 ms, TFB=838 ms, Bytes=4,983, HTTP-StatusCode=200 (OK)
+5/17/2020 2:53:51 PM: User #12 Click #10: !Success! All requests of click done (838 ms)  
+5/17/2020 2:53:56 PM: Writing User Log
+5/17/2020 2:53:57 PM: User passed away

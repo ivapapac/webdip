@@ -1,0 +1,183 @@
+Webserver Stress Tool - Logfile for User #14
+5/17/2020 2:52:07 PM: User #14 Click #1: Waiting for global click delay: 10s
+5/17/2020 2:52:13 PM: User #14 Click #1: HTTP request & TCP/IP socket creation: 2 ms
+5/17/2020 2:52:13 PM: User #14 Click #1: ** Click #1 started, used URL #14 (), from IP=0.0.0.0
+5/17/2020 2:52:13 PM: User #14 Click #1: Request 1 HTTP State: Initialized (0 ms)
+5/17/2020 2:52:13 PM: User #14 Click #1: Request 1 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:52:13 PM: User #14 Click #1: Request 1 HTTP State: DNS Lookup done (0 ms)
+5/17/2020 2:52:13 PM: User #14 Click #1: Request 1 HTTP State: Connected (1 ms)
+5/17/2020 2:52:13 PM: User #14 Click #1: Request 1 HTTP State: Waiting for header (1 ms)
+5/17/2020 2:52:14 PM: User #14 Click #1: Request 1 HTTP State: Receiving Header (423 ms) (=Time to First Byte)
+5/17/2020 2:52:14 PM: User #14 Click #1: Request 1 Redirect: 424 ms, StatusCode = 302: redirected to http://localhost//zadaca_04/ostalo/../obrasci/prijava.php on localhost
+5/17/2020 2:52:14 PM: User #14 Click #1: Request 1 HTTP State: DNS Lookup begin (424 ms)
+5/17/2020 2:52:14 PM: User #14 Click #1: Request 1 HTTP State: DNS Lookup done (430 ms)
+5/17/2020 2:52:14 PM: User #14 Click #1: Request 1 HTTP State: Connected (431 ms)
+5/17/2020 2:52:14 PM: User #14 Click #1: Request 1 HTTP State: Waiting for header (431 ms)
+5/17/2020 2:52:14 PM: User #14 Click #1: Request 1 HTTP State: Waiting for body (849 ms)
+5/17/2020 2:52:14 PM: User #14 Click #1: Request 1 HTTP State: Done (849 ms)
+5/17/2020 2:52:14 PM: User #14 Click #1: CLICK-Request 1: Time=849 ms, TFB=423 ms, Bytes=4,739, HTTP-StatusCode=200 (OK)
+5/17/2020 2:52:14 PM: User #14 Click #1: !Success! All requests of click done (849 ms)  
+5/17/2020 2:52:14 PM: User #14 Click #2: Waiting for global click delay: 10s
+5/17/2020 2:52:24 PM: User #14 Click #2: HTTP request & TCP/IP socket creation: 7 ms
+5/17/2020 2:52:24 PM: User #14 Click #2: ** Click #2 started, used URL #14 (), from IP=0.0.0.0
+5/17/2020 2:52:24 PM: User #14 Click #2: Request 2 HTTP State: Initialized (0 ms)
+5/17/2020 2:52:24 PM: User #14 Click #2: Request 2 HTTP State: DNS Lookup begin (33 ms)
+5/17/2020 2:52:24 PM: User #14 Click #2: Request 2 HTTP State: DNS Lookup done (34 ms)
+5/17/2020 2:52:24 PM: User #14 Click #2: Request 2 HTTP State: Connected (34 ms)
+5/17/2020 2:52:24 PM: User #14 Click #2: Request 2 HTTP State: Waiting for header (34 ms)
+5/17/2020 2:52:24 PM: User #14 Click #2: Request 2 HTTP State: Receiving Header (454 ms) (=Time to First Byte)
+5/17/2020 2:52:24 PM: User #14 Click #2: Request 2 Redirect: 454 ms, StatusCode = 302: redirected to http://localhost//zadaca_04/ostalo/../obrasci/prijava.php on localhost
+5/17/2020 2:52:24 PM: User #14 Click #2: Request 2 HTTP State: DNS Lookup begin (457 ms)
+5/17/2020 2:52:24 PM: User #14 Click #2: Request 2 HTTP State: DNS Lookup done (458 ms)
+5/17/2020 2:52:24 PM: User #14 Click #2: Request 2 HTTP State: Connected (458 ms)
+5/17/2020 2:52:24 PM: User #14 Click #2: Request 2 HTTP State: Waiting for header (458 ms)
+5/17/2020 2:52:25 PM: User #14 Click #2: Request 2 HTTP State: Waiting for body (879 ms)
+5/17/2020 2:52:25 PM: User #14 Click #2: Request 2 HTTP State: Done (886 ms)
+5/17/2020 2:52:25 PM: User #14 Click #2: CLICK-Request 2: Time=886 ms, TFB=454 ms, Bytes=4,739, HTTP-StatusCode=200 (OK)
+5/17/2020 2:52:25 PM: User #14 Click #2: !Success! All requests of click done (886 ms)  
+5/17/2020 2:52:25 PM: User #14 Click #3: Waiting for global click delay: 10s
+5/17/2020 2:52:35 PM: User #14 Click #3: HTTP request & TCP/IP socket creation: 2 ms
+5/17/2020 2:52:35 PM: User #14 Click #3: ** Click #3 started, used URL #14 (), from IP=0.0.0.0
+5/17/2020 2:52:35 PM: User #14 Click #3: Request 3 HTTP State: Initialized (0 ms)
+5/17/2020 2:52:35 PM: User #14 Click #3: Request 3 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:52:35 PM: User #14 Click #3: Request 3 HTTP State: DNS Lookup done (0 ms)
+5/17/2020 2:52:35 PM: User #14 Click #3: Request 3 HTTP State: Connected (1 ms)
+5/17/2020 2:52:35 PM: User #14 Click #3: Request 3 HTTP State: Waiting for header (1 ms)
+5/17/2020 2:52:35 PM: User #14 Click #3: Request 3 HTTP State: Receiving Header (433 ms) (=Time to First Byte)
+5/17/2020 2:52:35 PM: User #14 Click #3: Request 3 Redirect: 433 ms, StatusCode = 302: redirected to http://localhost//zadaca_04/ostalo/../obrasci/prijava.php on localhost
+5/17/2020 2:52:35 PM: User #14 Click #3: Request 3 HTTP State: DNS Lookup begin (433 ms)
+5/17/2020 2:52:35 PM: User #14 Click #3: Request 3 HTTP State: DNS Lookup done (434 ms)
+5/17/2020 2:52:35 PM: User #14 Click #3: Request 3 HTTP State: Connected (434 ms)
+5/17/2020 2:52:35 PM: User #14 Click #3: Request 3 HTTP State: Waiting for header (434 ms)
+5/17/2020 2:52:36 PM: User #14 Click #3: Request 3 HTTP State: Waiting for body (851 ms)
+5/17/2020 2:52:36 PM: User #14 Click #3: Request 3 HTTP State: Done (851 ms)
+5/17/2020 2:52:36 PM: User #14 Click #3: CLICK-Request 3: Time=851 ms, TFB=433 ms, Bytes=4,739, HTTP-StatusCode=200 (OK)
+5/17/2020 2:52:36 PM: User #14 Click #3: !Success! All requests of click done (851 ms)  
+5/17/2020 2:52:36 PM: User #14 Click #4: Waiting for global click delay: 10s
+5/17/2020 2:52:46 PM: User #14 Click #4: HTTP request & TCP/IP socket creation: 4 ms
+5/17/2020 2:52:46 PM: User #14 Click #4: ** Click #4 started, used URL #14 (), from IP=0.0.0.0
+5/17/2020 2:52:46 PM: User #14 Click #4: Request 4 HTTP State: Initialized (0 ms)
+5/17/2020 2:52:46 PM: User #14 Click #4: Request 4 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:52:46 PM: User #14 Click #4: Request 4 HTTP State: DNS Lookup done (1 ms)
+5/17/2020 2:52:46 PM: User #14 Click #4: Request 4 HTTP State: Connected (2 ms)
+5/17/2020 2:52:46 PM: User #14 Click #4: Request 4 HTTP State: Waiting for header (2 ms)
+5/17/2020 2:52:46 PM: User #14 Click #4: Request 4 HTTP State: Receiving Header (420 ms) (=Time to First Byte)
+5/17/2020 2:52:46 PM: User #14 Click #4: Request 4 Redirect: 420 ms, StatusCode = 302: redirected to http://localhost//zadaca_04/ostalo/../obrasci/prijava.php on localhost
+5/17/2020 2:52:46 PM: User #14 Click #4: Request 4 HTTP State: DNS Lookup begin (421 ms)
+5/17/2020 2:52:46 PM: User #14 Click #4: Request 4 HTTP State: DNS Lookup done (421 ms)
+5/17/2020 2:52:46 PM: User #14 Click #4: Request 4 HTTP State: Connected (430 ms)
+5/17/2020 2:52:46 PM: User #14 Click #4: Request 4 HTTP State: Waiting for header (430 ms)
+5/17/2020 2:52:47 PM: User #14 Click #4: Request 4 HTTP State: Waiting for body (848 ms)
+5/17/2020 2:52:47 PM: User #14 Click #4: Request 4 HTTP State: Done (848 ms)
+5/17/2020 2:52:47 PM: User #14 Click #4: CLICK-Request 4: Time=848 ms, TFB=420 ms, Bytes=4,739, HTTP-StatusCode=200 (OK)
+5/17/2020 2:52:47 PM: User #14 Click #4: !Success! All requests of click done (848 ms)  
+5/17/2020 2:52:47 PM: User #14 Click #5: Waiting for global click delay: 10s
+5/17/2020 2:52:57 PM: User #14 Click #5: HTTP request & TCP/IP socket creation: 3 ms
+5/17/2020 2:52:57 PM: User #14 Click #5: ** Click #5 started, used URL #14 (), from IP=0.0.0.0
+5/17/2020 2:52:57 PM: User #14 Click #5: Request 5 HTTP State: Initialized (0 ms)
+5/17/2020 2:52:57 PM: User #14 Click #5: Request 5 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:52:57 PM: User #14 Click #5: Request 5 HTTP State: DNS Lookup done (13 ms)
+5/17/2020 2:52:57 PM: User #14 Click #5: Request 5 HTTP State: Connected (14 ms)
+5/17/2020 2:52:57 PM: User #14 Click #5: Request 5 HTTP State: Waiting for header (14 ms)
+5/17/2020 2:52:57 PM: User #14 Click #5: Request 5 HTTP State: Receiving Header (431 ms) (=Time to First Byte)
+5/17/2020 2:52:57 PM: User #14 Click #5: Request 5 Redirect: 431 ms, StatusCode = 302: redirected to http://localhost//zadaca_04/ostalo/../obrasci/prijava.php on localhost
+5/17/2020 2:52:57 PM: User #14 Click #5: Request 5 HTTP State: DNS Lookup begin (432 ms)
+5/17/2020 2:52:57 PM: User #14 Click #5: Request 5 HTTP State: DNS Lookup done (432 ms)
+5/17/2020 2:52:57 PM: User #14 Click #5: Request 5 HTTP State: Connected (432 ms)
+5/17/2020 2:52:57 PM: User #14 Click #5: Request 5 HTTP State: Waiting for header (432 ms)
+5/17/2020 2:52:58 PM: User #14 Click #5: Request 5 HTTP State: Waiting for body (853 ms)
+5/17/2020 2:52:58 PM: User #14 Click #5: Request 5 HTTP State: Done (853 ms)
+5/17/2020 2:52:58 PM: User #14 Click #5: CLICK-Request 5: Time=859 ms, TFB=431 ms, Bytes=4,739, HTTP-StatusCode=200 (OK)
+5/17/2020 2:52:58 PM: User #14 Click #5: !Success! All requests of click done (859 ms)  
+5/17/2020 2:52:58 PM: User #14 Click #6: Waiting for global click delay: 10s
+5/17/2020 2:53:08 PM: User #14 Click #6: HTTP request & TCP/IP socket creation: 3 ms
+5/17/2020 2:53:08 PM: User #14 Click #6: ** Click #6 started, used URL #14 (), from IP=0.0.0.0
+5/17/2020 2:53:08 PM: User #14 Click #6: Request 6 HTTP State: Initialized (0 ms)
+5/17/2020 2:53:08 PM: User #14 Click #6: Request 6 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:53:08 PM: User #14 Click #6: Request 6 HTTP State: DNS Lookup done (1 ms)
+5/17/2020 2:53:08 PM: User #14 Click #6: Request 6 HTTP State: Connected (4 ms)
+5/17/2020 2:53:08 PM: User #14 Click #6: Request 6 HTTP State: Waiting for header (4 ms)
+5/17/2020 2:53:08 PM: User #14 Click #6: Request 6 HTTP State: Receiving Header (424 ms) (=Time to First Byte)
+5/17/2020 2:53:08 PM: User #14 Click #6: Request 6 Redirect: 442 ms, StatusCode = 302: redirected to http://localhost//zadaca_04/ostalo/../obrasci/prijava.php on localhost
+5/17/2020 2:53:08 PM: User #14 Click #6: Request 6 HTTP State: DNS Lookup begin (442 ms)
+5/17/2020 2:53:08 PM: User #14 Click #6: Request 6 HTTP State: DNS Lookup done (443 ms)
+5/17/2020 2:53:08 PM: User #14 Click #6: Request 6 HTTP State: Connected (443 ms)
+5/17/2020 2:53:08 PM: User #14 Click #6: Request 6 HTTP State: Waiting for header (443 ms)
+5/17/2020 2:53:08 PM: User #14 Click #6: Request 6 HTTP State: Waiting for body (858 ms)
+5/17/2020 2:53:08 PM: User #14 Click #6: Request 6 HTTP State: Done (859 ms)
+5/17/2020 2:53:08 PM: User #14 Click #6: CLICK-Request 6: Time=859 ms, TFB=424 ms, Bytes=4,739, HTTP-StatusCode=200 (OK)
+5/17/2020 2:53:08 PM: User #14 Click #6: !Success! All requests of click done (859 ms)  
+5/17/2020 2:53:08 PM: User #14 Click #7: Waiting for global click delay: 10s
+5/17/2020 2:53:18 PM: User #14 Click #7: HTTP request & TCP/IP socket creation: 3 ms
+5/17/2020 2:53:18 PM: User #14 Click #7: ** Click #7 started, used URL #14 (), from IP=0.0.0.0
+5/17/2020 2:53:18 PM: User #14 Click #7: Request 7 HTTP State: Initialized (0 ms)
+5/17/2020 2:53:18 PM: User #14 Click #7: Request 7 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:53:18 PM: User #14 Click #7: Request 7 HTTP State: DNS Lookup done (0 ms)
+5/17/2020 2:53:18 PM: User #14 Click #7: Request 7 HTTP State: Connected (1 ms)
+5/17/2020 2:53:18 PM: User #14 Click #7: Request 7 HTTP State: Waiting for header (1 ms)
+5/17/2020 2:53:19 PM: User #14 Click #7: Request 7 HTTP State: Receiving Header (420 ms) (=Time to First Byte)
+5/17/2020 2:53:19 PM: User #14 Click #7: Request 7 Redirect: 420 ms, StatusCode = 302: redirected to http://localhost//zadaca_04/ostalo/../obrasci/prijava.php on localhost
+5/17/2020 2:53:19 PM: User #14 Click #7: Request 7 HTTP State: DNS Lookup begin (420 ms)
+5/17/2020 2:53:19 PM: User #14 Click #7: Request 7 HTTP State: DNS Lookup done (420 ms)
+5/17/2020 2:53:19 PM: User #14 Click #7: Request 7 HTTP State: Connected (421 ms)
+5/17/2020 2:53:19 PM: User #14 Click #7: Request 7 HTTP State: Waiting for header (431 ms)
+5/17/2020 2:53:19 PM: User #14 Click #7: Request 7 HTTP State: Waiting for body (850 ms)
+5/17/2020 2:53:19 PM: User #14 Click #7: Request 7 HTTP State: Done (850 ms)
+5/17/2020 2:53:19 PM: User #14 Click #7: CLICK-Request 7: Time=850 ms, TFB=420 ms, Bytes=4,739, HTTP-StatusCode=200 (OK)
+5/17/2020 2:53:19 PM: User #14 Click #7: !Success! All requests of click done (850 ms)  
+5/17/2020 2:53:19 PM: User #14 Click #8: Waiting for global click delay: 10s
+5/17/2020 2:53:29 PM: User #14 Click #8: HTTP request & TCP/IP socket creation: 2 ms
+5/17/2020 2:53:29 PM: User #14 Click #8: ** Click #8 started, used URL #14 (), from IP=0.0.0.0
+5/17/2020 2:53:29 PM: User #14 Click #8: Request 8 HTTP State: Initialized (0 ms)
+5/17/2020 2:53:29 PM: User #14 Click #8: Request 8 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:53:29 PM: User #14 Click #8: Request 8 HTTP State: DNS Lookup done (1 ms)
+5/17/2020 2:53:29 PM: User #14 Click #8: Request 8 HTTP State: Connected (14 ms)
+5/17/2020 2:53:29 PM: User #14 Click #8: Request 8 HTTP State: Waiting for header (14 ms)
+5/17/2020 2:53:30 PM: User #14 Click #8: Request 8 HTTP State: Receiving Header (435 ms) (=Time to First Byte)
+5/17/2020 2:53:30 PM: User #14 Click #8: Request 8 Redirect: 435 ms, StatusCode = 302: redirected to http://localhost//zadaca_04/ostalo/../obrasci/prijava.php on localhost
+5/17/2020 2:53:30 PM: User #14 Click #8: Request 8 HTTP State: DNS Lookup begin (436 ms)
+5/17/2020 2:53:30 PM: User #14 Click #8: Request 8 HTTP State: DNS Lookup done (437 ms)
+5/17/2020 2:53:30 PM: User #14 Click #8: Request 8 HTTP State: Connected (437 ms)
+5/17/2020 2:53:30 PM: User #14 Click #8: Request 8 HTTP State: Waiting for header (437 ms)
+5/17/2020 2:53:30 PM: User #14 Click #8: Request 8 HTTP State: Waiting for body (858 ms)
+5/17/2020 2:53:30 PM: User #14 Click #8: Request 8 HTTP State: Done (858 ms)
+5/17/2020 2:53:30 PM: User #14 Click #8: CLICK-Request 8: Time=858 ms, TFB=435 ms, Bytes=4,739, HTTP-StatusCode=200 (OK)
+5/17/2020 2:53:30 PM: User #14 Click #8: !Success! All requests of click done (879 ms)  
+5/17/2020 2:53:30 PM: User #14 Click #9: Waiting for global click delay: 10s
+5/17/2020 2:53:40 PM: User #14 Click #9: HTTP request & TCP/IP socket creation: 2 ms
+5/17/2020 2:53:40 PM: User #14 Click #9: ** Click #9 started, used URL #14 (), from IP=0.0.0.0
+5/17/2020 2:53:40 PM: User #14 Click #9: Request 9 HTTP State: Initialized (0 ms)
+5/17/2020 2:53:40 PM: User #14 Click #9: Request 9 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:53:40 PM: User #14 Click #9: Request 9 HTTP State: DNS Lookup done (0 ms)
+5/17/2020 2:53:40 PM: User #14 Click #9: Request 9 HTTP State: Connected (1 ms)
+5/17/2020 2:53:40 PM: User #14 Click #9: Request 9 HTTP State: Waiting for header (1 ms)
+5/17/2020 2:53:41 PM: User #14 Click #9: Request 9 HTTP State: Receiving Header (420 ms) (=Time to First Byte)
+5/17/2020 2:53:41 PM: User #14 Click #9: Request 9 Redirect: 421 ms, StatusCode = 302: redirected to http://localhost//zadaca_04/ostalo/../obrasci/prijava.php on localhost
+5/17/2020 2:53:41 PM: User #14 Click #9: Request 9 HTTP State: DNS Lookup begin (431 ms)
+5/17/2020 2:53:41 PM: User #14 Click #9: Request 9 HTTP State: DNS Lookup done (431 ms)
+5/17/2020 2:53:41 PM: User #14 Click #9: Request 9 HTTP State: Connected (432 ms)
+5/17/2020 2:53:41 PM: User #14 Click #9: Request 9 HTTP State: Waiting for header (432 ms)
+5/17/2020 2:53:41 PM: User #14 Click #9: Request 9 HTTP State: Waiting for body (854 ms)
+5/17/2020 2:53:41 PM: User #14 Click #9: Request 9 HTTP State: Done (855 ms)
+5/17/2020 2:53:41 PM: User #14 Click #9: CLICK-Request 9: Time=855 ms, TFB=420 ms, Bytes=4,739, HTTP-StatusCode=200 (OK)
+5/17/2020 2:53:41 PM: User #14 Click #9: !Success! All requests of click done (855 ms)  
+5/17/2020 2:53:41 PM: User #14 Click #10: Waiting for global click delay: 10s
+5/17/2020 2:53:51 PM: User #14 Click #10: HTTP request & TCP/IP socket creation: 2 ms
+5/17/2020 2:53:51 PM: User #14 Click #10: ** Click #10 started, used URL #14 (), from IP=0.0.0.0
+5/17/2020 2:53:51 PM: User #14 Click #10: Request 10 HTTP State: Initialized (0 ms)
+5/17/2020 2:53:51 PM: User #14 Click #10: Request 10 HTTP State: DNS Lookup begin (0 ms)
+5/17/2020 2:53:51 PM: User #14 Click #10: Request 10 HTTP State: DNS Lookup done (0 ms)
+5/17/2020 2:53:51 PM: User #14 Click #10: Request 10 HTTP State: Connected (1 ms)
+5/17/2020 2:53:51 PM: User #14 Click #10: Request 10 HTTP State: Waiting for header (1 ms)
+5/17/2020 2:53:51 PM: User #14 Click #10: Request 10 HTTP State: Receiving Header (422 ms) (=Time to First Byte)
+5/17/2020 2:53:51 PM: User #14 Click #10: Request 10 Redirect: 423 ms, StatusCode = 302: redirected to http://localhost//zadaca_04/ostalo/../obrasci/prijava.php on localhost
+5/17/2020 2:53:51 PM: User #14 Click #10: Request 10 HTTP State: DNS Lookup begin (423 ms)
+5/17/2020 2:53:51 PM: User #14 Click #10: Request 10 HTTP State: DNS Lookup done (423 ms)
+5/17/2020 2:53:51 PM: User #14 Click #10: Request 10 HTTP State: Connected (424 ms)
+5/17/2020 2:53:51 PM: User #14 Click #10: Request 10 HTTP State: Waiting for header (424 ms)
+5/17/2020 2:53:52 PM: User #14 Click #10: Request 10 HTTP State: Waiting for body (851 ms)
+5/17/2020 2:53:52 PM: User #14 Click #10: Request 10 HTTP State: Done (851 ms)
+5/17/2020 2:53:52 PM: User #14 Click #10: CLICK-Request 10: Time=851 ms, TFB=422 ms, Bytes=4,739, HTTP-StatusCode=200 (OK)
+5/17/2020 2:53:52 PM: User #14 Click #10: !Success! All requests of click done (851 ms)  
+5/17/2020 2:53:56 PM: Writing User Log
+5/17/2020 2:53:57 PM: User passed away

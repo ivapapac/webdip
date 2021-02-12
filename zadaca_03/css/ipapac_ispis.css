@@ -1,0 +1,57 @@
+@media only print {
+    header, footer, img, .poveznice, .navigacija, audio, video, iframe {
+        display: none;
+    }
+
+    /* Početna stranica */
+
+    .grey-container {
+        background-color: white;
+    }
+
+    .clanak {
+        box-shadow: none;
+        padding: 0;
+    }
+
+    /* Registracija i prijava */
+
+    .registracija-obrazac button, .prijava-obrazac .potvrdi-btn, .prijava-obrazac .odustani-btn {
+        box-shadow: none;
+        justify-self: right;
+    }
+
+    .registracija-obrazac, .prijava-obrazac{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 10px;
+    }
+
+    .registracija-obrazac label, .prijava-obrazac label {
+        grid-column: 1;
+        text-align: right;
+    }
+
+    .registracija-obrazac input, .prijava-obrazac input {
+        grid-column: 2;
+        width: 300px;
+    }
+
+    /* Obrazac */ 
+
+    .obrazac-sadrzaj, .obrazac-sadrzaj button {
+        box-shadow: none;
+    }
+
+    .obrazac-sadrzaj{
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+@media only print and (orientation: landscape){
+    .clanak:nth-of-type(3) {
+        margin-top: 150px;
+    }
+}

@@ -1,0 +1,450 @@
+@media only screen and (min-width: 1024px){
+
+    /*Početna stranica*/
+
+    header {
+        display: grid;
+        grid-template-columns: 13% auto auto;
+        grid-template-rows: auto auto;
+        align-content: center;
+    }
+
+    .logo-itm {
+        grid-column: 1;
+        grid-row: 1 / span 2;
+    }
+
+    .logo-itm img {
+        width: 138px;
+    }
+
+    .naslov-itm {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+    }
+    
+    .odjava-itm {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    .search-itm {
+        grid-column: 3;
+        grid-row: 2;
+        text-align: right;
+    }
+
+    .izbornik {
+        display: none;
+    }
+
+    .poveznice {
+        display: none;
+    }
+
+    .content {
+        display: grid;
+    }
+
+    .grey-container {
+        grid-column: 2;
+        grid-row: 1;
+        padding: 50px;
+        width: auto;
+        margin-top: -4px;
+    }
+
+    .grey-container ul li img {
+        width: 200px;
+        border-radius: 100px;
+        margin-bottom: 10px;
+    }
+
+    .images img {
+        width: 200px;
+    }
+
+    .white-container {
+        grid-column: 1;
+        grid-row: 1;
+        width: 80%;
+        justify-self: center;
+    }
+
+    .clanak:last-child {
+        margin-bottom: 60px;
+    }
+
+    article {
+        line-height: 1.5em;
+    }
+
+    article h4 {
+        font-size: 1.3em;
+    }
+
+    article p {
+        font-size: 1.1em;
+    }
+
+    .foot-align {
+        grid-template-columns: 90% auto auto;
+    }
+
+    footer ul li {
+        text-align: left;
+        line-height: 1.5em;
+    }
+
+    .html-logo {
+        width: 65px;
+    }
+
+    .css-logo {
+        width: 79px;
+    }
+
+    /* Registracija */
+    .navigacija li {
+        font-size: 1.3em;
+        padding-right: 50px;
+        display: inline;
+    }
+    
+    .registracija-obrazac {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+        align-self: center;
+        padding: 50px;
+    }
+
+    .registracija-obrazac label {
+        grid-column: 1;
+        text-align: right;
+    }
+
+    .registracija-obrazac input {
+        grid-column: 2;
+        width: 600px;
+        align-items: center;
+    }
+
+    .registracija-obrazac button {
+        justify-self: right;
+        margin-right: 190px;
+        
+    }
+
+    /* Prijava */
+    .prijava-obrazac {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+        align-self: center;
+        padding: 105px;
+    }
+
+    .prijava-obrazac label {
+        grid-column: 1;
+        text-align: right;
+    }
+
+    .prijava-obrazac input {
+        grid-column: 2;
+        width: 600px;
+        align-items: center;
+    }
+
+    .prijava-obrazac .gumbi {
+        display: inline-block;
+        justify-self: right;
+        margin-right: 135px;
+    }
+
+    .prijava-obrazac .potvrdi-btn {
+        margin-right: 20px;
+    }
+
+    /* Obrazac */
+
+    .obrazac-sadrzaj {
+        padding-top: 20px;
+        margin-top: 20px;
+        width: 70%;
+    }
+
+    .obrazac-sadrzaj button {
+        margin-bottom: 20px;
+    }
+
+    .navigacija {
+        margin-left: 25px;
+    }
+
+    /* Multimedija */
+
+    .multimedija-video {
+        margin: 20px;
+        margin-bottom: 50px;
+        justify-self: center;
+        width: 60%;
+    }
+
+    .multimedija-video iframe, video {
+        width: 600px;
+        height: 400px;
+        margin: 20px;
+    }
+
+    .multimedija-audio {
+        padding: 20px;
+        border-radius: 80px;
+        margin-bottom: 80px;
+        width: 80%;
+        justify-self: center;
+    }
+
+    /* Popis */
+
+    table caption {
+        font-size: 1.5em;
+    }
+
+    table img {
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 1023px){
+    /* Početna stranica */
+    header {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        row-gap: 10px;
+    }
+
+    .odjava-itm {
+        grid-row: 1;
+        grid-column: 1 / span 3;
+        font-size: 85%;
+    }
+
+    .logo-itm img {
+        width: 85px;
+        grid-row: 2;
+        grid-column: 1;
+        margin-left: 40px;
+    }
+
+    .naslov-itm {
+        grid-row: 2;
+        font-size: 0.7em;
+        grid-column: 2;
+        text-align: left;
+    }
+
+    .search-itm {
+        grid-row: 3;
+        grid-column: 1 / span 3;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .content {
+        display: grid;
+        grid-template-rows: auto auto auto;
+    }
+
+    .poveznice {
+        line-height: 1.5em;
+        grid-row: 1;
+        margin-right: 40px;
+        margin-top: 4px;
+    }
+
+    .grey-container {
+        grid-row: 2;
+    }
+
+    .grey-container ul {
+        font-size: 85%;
+        padding: 10px;
+    }
+
+    .grey-container ul li img {
+        width: 150px;
+        border-radius: 80px;
+        margin-bottom: 10px;
+    }
+
+    .images {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .images img {
+        width: 150px;
+    }
+
+    .white-container {
+        grid-row: 3;
+        width: 80%;
+        justify-self: center;
+        margin-bottom: 50px;
+    }
+
+    article h4 {
+        font-size: 1em;
+    }
+
+    article p {
+        font-size: 0.8em;
+    }
+
+    .foot-align {
+        grid-template-columns: 80% auto auto;
+    }
+
+    footer ul li {
+        font-size: 0.7em;
+    }
+
+    .html-logo {
+        width: 45px;
+    }
+
+    .css-logo {
+        width: 53px;
+    }
+
+    /* Registracija */
+
+    .navigacija {
+        margin: auto;
+        margin-bottom: 50px;
+        border-bottom-style: solid;
+        border-bottom-color: #F0F0F0;
+    }
+
+    .registracija-obrazac {
+        align-self: center;
+    }
+
+    .registracija-obrazac label {
+        display: block;
+        font-size: 0.9em;
+    }
+
+    .registracija-obrazac input {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .registracija-obrazac button {
+        margin-bottom: 50px;
+        margin-left: 80px;
+    }
+
+    /* Prijava */
+
+    .prijava-obrazac {
+        align-self: center;
+        margin-bottom: 50px;
+    }
+
+    .prijava-obrazac label {
+        display: block;
+        font-size: 0.9em;
+    }
+
+    .prijava-obrazac input {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .prijava-obrazac .gumbi {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .prijava-obrazac .potvrdi-btn {
+        margin-right: 10px;
+    }
+
+    .prijava-obrazac .potvrdi-btn, .prijava-obrazac .odustani-btn {
+        width: 120px;
+    }
+
+    /* Obrazac */
+
+    .obrazac-sadrzaj {
+        padding-top: 0px;
+    }
+
+    .obrazac-sadrzaj h3{
+        font-size: 95%;
+    }
+
+    #nazad {
+        font-size: 75%;
+    }
+
+    .obrazac-sadrzaj label, .boja-stranice label {
+        font-size: 90%;
+    }
+
+    .odabir-prostorije {
+        margin-bottom: 0;
+    }
+
+    .odabir-prostorije label::after, .odabir-vrste label::after{
+        content: "\A";
+        white-space: pre;
+    }
+
+    /* Multimedija */ 
+    
+    .multimedija-video {
+        margin: auto;
+        margin-bottom: 50px;
+        padding-bottom: 20px;
+    }
+
+    .multimedija-video iframe, video {
+        width: 300px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    .multimedija-audio {
+        border-radius: 40px;
+        margin-bottom: 70px;
+        display: grid;
+        justify-content: center;
+        width: 350px;
+        justify-self: center;
+    }
+
+    /* Popis */
+
+    table td, #popis-korisnika_wrapper{
+        font-size: 80%;
+    }
+
+    table img {
+        width: 40px;
+    }
+
+    /* Dijagrami */ 
+
+    .dijagrami {
+        display: block;
+        padding-right: 0px;
+    }
+}

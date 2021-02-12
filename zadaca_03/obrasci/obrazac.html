@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Iva Papac">
+    <meta name="title" content="Dodavanje novog sadržaja">
+    <meta name="description" content="Obrazac za dodavanje novog sadržaja, 24.3.2020.">
+    <meta name="keywords" content="novi sadržaj, obrazac, home design">
+    <link rel="stylesheet" href="../css/ipapac.css" type="text/css">
+    <link rel="stylesheet" href="../css/ipapac_prilagodbe.css" type="text/css">
+    <link rel="stylesheet" href="../css/ipapac_ispis.css" type="text/css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" type="text/css">
+    <script src="../javascript/ipapac.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../javascript/ipapac_jquery.js"></script>
+    <title>Dodavanje novog sadržaja</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <div class="logo-itm">
+                <a href="../index.html"><img src="../multimedija/logo.png" alt="Home Design logo"></a>
+            </div>
+
+            <div class="naslov-itm">
+                <h1>Dodaj sadržaj</h1>
+                <h4>Let your dreams become reality</h4>
+            </div>
+
+            <a href="#" class="odjava-itm">Odjava</a>
+
+            <div class="search-itm">
+                <form novalidate method="GET" action="http://barka.foi.hr/WebDiP/2019/materijali/zadace/ispis_forme.php">
+                    <input id="search" type="search" placeholder="Pretraži..." name="search">
+                    <button type="submit"><img src="../multimedija/search.svg" alt="search-btn"></button>
+                </form>
+            </div>
+        </header>
+
+        <img src="../multimedija/izbornik.svg" alt="Izbornik">
+    </div>
+
+    <div class="obrazac">
+        <ul class="navigacija">
+            <li><a href="../index.html">Početna</a></li>
+            <li><a href="../obrasci/registracija.html">Registracija</a></li>
+            <li><a href="../obrasci/prijava.html">Prijava</a></li>
+            <li><a href="../obrasci/obrazac.html">Obrazac</a></li>
+            <li><a href="../ostalo/multimedija.html">Multimedija</a></li>
+            <li><a href="../ostalo/popis.html">Popis</a></li>
+            <li><a href="../era.html">ERA dijagram</a></li>
+            <li><a href="../navigacijski.html">Navigacijski dijagrami</a></li>
+        </ul>
+        
+        <form novalidate id="obrazac" class="obrazac-sadrzaj" method="POST"
+            action="http://barka.foi.hr/WebDiP/2019/materijali/zadace/ispis_forme.php">
+            <a href="#" id="nazad">Početna</a><br>
+            <h3>Informacije o proizvodu</h3>
+            <label for="name">Naziv</label><br>
+            <input type="text" id="name" name="naziv" required><br>
+            <label for="boja">Boja</label><br>
+            <input type="color" id="boja" name="boja"><br>
+            <label>Boja stranice</label>
+            <div id="check-boje">
+                <input type="checkbox" id="crvena">
+                <label for="crvena">Crvena</label>
+                <input type="checkbox" id="zelena">
+                <label for="zelena">Zelena</label>
+                <input type="checkbox" id="plava">
+                <label for="plava">Plava</label>
+            </div>
+            <label for="kvaliteta">Kvaliteta (0-10)</label><br>
+            <input type="range" id="kvaliteta" min="0" max="10" name="kvaliteta"><br>
+
+            <label>Prostorija namjene</label>
+            <div class="odabir-prostorije">
+                <input type="radio" id="dnevna-soba" value="Dnevna soba" name="prostorija" required>
+                <label for="dnevna-soba">Dnevna soba</label>
+                <input type="radio" id="kuhinja" value="Kuhinja" name="prostorija" required>
+                <label for="kuhinja">Kuhinja</label>
+                <input type="radio" id="spavaca-soba" value="Spavaća soba" name="prostorija" required>
+                <label for="spavaca-soba">Spavaća soba</label>
+                <input type="radio" id="djecja-soba" value="Dječja soba" name="prostorija" required>
+                <label for="djecja-soba">Dječja soba</label>
+                <input type="radio" id="kupaonica" value="Kupaonica" name="prostorija" required>
+                <label for="kupaonica">Kupaonica</label>
+                <input type="radio" id="hodnik" value="Hodnik" name="prostorija" required>
+                <label for="hodnik">Hodnik</label><br>
+            </div>
+
+            <label>Vrsta</label>
+            <div class="odabir-vrste">
+                <input type="checkbox" checked id="namjestaj" value="Namještaj" name="vrsta-1">
+                <label for="namjestaj">Namještaj</label>
+                <input type="checkbox" checked id="dom" value="Dom" name="vrsta-2">
+                <label for="dom">Dom</label>
+                <input type="checkbox" id="rasvjeta" value="Rasvjeta" name="vrsta-3">
+                <label for="rasvjeta">Rasvjeta</label>
+                <input type="checkbox" id="tepih" value="Tepisi i staze" name="vrsta-4">
+                <label for="tepih">Tepisi i staze</label>
+                <input type="checkbox" id="kreveti" value="Kreveti" name="vrsta-5">
+                <label for="kreveti">Kreveti</label>
+                <input type="checkbox" id="stol" value="Stol i stolice" name="vrsta-6">
+                <label for="stol">Stol i stolice</label>
+                <input type="checkbox" id="ukrasi" value="Ukrasi" name="vrsta-7">
+                <label for="ukrasi">Ukrasi</label>
+                <input type="checkbox" id="ormari" value="Ormari" name="vrsta-8">
+                <label for="ormari">Ormari</label>
+            </div>
+
+            <label for="slika">Prenesi sliku</label><br>
+            <input type="file" id="slika" name="datoteka" required>
+
+            <h3>Informacije o kupnji</h3>
+            <label for="link-kupnja">Poveznica za kupnju</label><br>
+            <input type="url" id="link-kupnja" name="link" required><br>
+            <label for="dostupno-do">Dostupno do</label><br>
+            <input type="datetime-local" id="dostupno-do" name="dostupno-do" required><br>
+            <label for="cijena">Cijena</label><br>
+            <select id="cijena" multiple name="cijena[]" required>
+                <option value="0-500">0 - 500 HRK</option>
+                <option value="501-1000">501 - 1000 HRK</option>
+                <option value="1001-1500">1001 - 1500 HRK</option>
+                <option value="1501-2000">1501 - 2000 HRK</option>
+                <option value="2001-5000">2001 - 5000 HRK</option>
+                <option value="5001-10000">5000 - 10000 HRK</option>
+            </select><br>
+            <label for="kontakt">Kontakt</label><br>
+            <input type="tel" id="kontakt" name="kontakt" required><br>
+            <label for="dostava">Tjedan dostave</label><br>
+            <input type="week" id="dostava" name="dostava" required><br>
+            <button type="submit" id="potvrdi">POTVRDI</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="foot-align">
+            <ul>
+                <li>Iva Papac</li>
+                <li>&copy; 2020</li>
+                <li>Kontakt: <a href="mailto:ipapac@foi.hr">ipapac@foi.hr</a></li>
+            </ul>
+
+            <a
+                href="https://validator.w3.org/check?uri=http://barka.foi.hr/WebDiP/2019/zadaca_03/ipapac/obrasci/obrazac.html">
+                <img src="../multimedija/HTML5.png" alt="html-logo" class="html-logo">
+            </a>
+            <a
+                href="https://jigsaw.w3.org/css-validator/validator?uri=http://barka.foi.hr/WebDiP/2019/zadaca_03/ipapac/obrasci/obrazac.html">
+                <img src="../multimedija/CSS3.png" alt="css3-logo" class="css-logo">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,5 +1,5 @@
 # Web Design and Programming
-Course projects were built by following specifications listed below:<br>
+Course projects were built by following specifications:<br>
 <ul>
 <li><a href="https://github.com/ivapapac/webdip/blob/main/upute/Zada%C4%87a%201.pdf">HW 1</a></li>
 <li><a href="https://github.com/ivapapac/webdip/blob/main/upute/Zada%C4%87a%202.pdf">HW 2</a></li>
